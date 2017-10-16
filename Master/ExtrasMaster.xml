@@ -1,0 +1,83 @@
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Conciertos[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig13.deviantart.net/6d82/f/2013/170/b/b/music_folder_icon_carpeta_png_bydanielhega_by_danielhega-d69std0.png</thumbnail>
+        <fanart>https://images5.alphacoders.com/349/thumb-1920-349660.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/pirata/musica-conciertos-completos-64364/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/pirata/musica-conciertos-completos-64364/list,1,5<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig13.deviantart.net/6d82/f/2013/170/b/b/music_folder_icon_carpeta_png_bydanielhega_by_danielhega-d69std0.png</thumbnail>
+<fanart>https://images5.alphacoders.com/349/thumb-1920-349660.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Conciertos 2[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig15.deviantart.net/7838/f/2012/066/9/b/concert_folder_by_ltatomsmoosher-d4s1y38.png</thumbnail>
+        <fanart>https://images5.alphacoders.com/349/thumb-1920-349660.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/conciertos-2013-14-15-16-el-rockero-39797/list,1,6</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/conciertos-2013-14-15-16-el-rockero-39797/list,1,6<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig15.deviantart.net/7838/f/2012/066/9/b/concert_folder_by_ltatomsmoosher-d4s1y38.png</thumbnail>
+<fanart>https://images5.alphacoders.com/349/thumb-1920-349660.jpg</fanart>
+</item>
+
+ <item>
+      <title>[COLOR gray][COLOR red]• [/COLOR] [B]Zona Porky[/B][/COLOR]</title>
+  <thumbnail>https://cdn4.iconfinder.com/data/icons/leox_graphite/512/amsterdam.png</thumbnail>
+<fanart>https://farm4.staticflickr.com/3151/2416207454_13f269d2f9_b.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Kamen.xml</externallink>
+</item>

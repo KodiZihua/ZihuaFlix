@@ -1,0 +1,152 @@
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 1[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red] White Collar [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
+        <fanart>http://wallpapercave.com/wp/h3VueiV.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/white-collar-28571</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/seri5/white-collar-28571<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
+<fanart>http://wallpapercave.com/wp/h3VueiV.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 2[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red] White collar [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
+        <fanart>http://wallpapercave.com/wp/h3VueiV.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/white-collar2-28572</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/seri5/white-collar2-28572<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
+<fanart>http://wallpapercave.com/wp/h3VueiV.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 3[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red] White collar [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
+        <fanart>http://wallpapercave.com/wp/h3VueiV.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/white-collar3-28573</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/seri5/white-collar3-28573<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
+<fanart>http://wallpapercave.com/wp/h3VueiV.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 4[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red] White collar [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
+        <fanart>http://wallpapercave.com/wp/h3VueiV.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/seri5/white-collar4-28574</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/seri5/white-collar4-28574<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
+<fanart>http://wallpapercave.com/wp/h3VueiV.jpg</fanart>
+</item>

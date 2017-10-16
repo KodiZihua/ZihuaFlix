@@ -1,0 +1,190 @@
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Vicente Fernandez[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+        <fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/peliculasi/3vicfern-48912</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/peliculasi/3vicfern-48912<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+<fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Antonio Aguilar[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+        <fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/peliculasi/2antaguilr-48908</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/peliculasi/2antaguilr-48908<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+<fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Cantinflas[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+        <fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/peliculasi/1cantf-48878</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/peliculasi/1cantf-48878<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+<fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Cine de Ficheras[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+        <fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/peliculasi/4c-m-a-48917</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/peliculasi/4c-m-a-48917<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+<fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Nuevo cine Mexicano[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+        <fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/peliculasi/p-m-48926/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/peliculasi/p-m-48926/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+<fanart>http://4.bp.blogspot.com/-UCso-DMw4XE/UQCVPxrZLaI/AAAAAAAA5Y8/38_lvMIJyqk/s1600/flags_mexico_desktop_1920x1080_hd-wallpaper-917250.jpg</fanart>
+</item>

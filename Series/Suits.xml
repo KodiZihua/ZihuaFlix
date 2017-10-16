@@ -1,0 +1,190 @@
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 1[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+        <fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/suits-t1-35156</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/suits-t1-35156<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+<fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 2[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+        <fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/suits-t2-39691</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/suits-t2-39691<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+<fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 3[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+        <fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/suits-t3-39692</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/suits-t3-39692<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+<fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 4[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+        <fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/suits-t4-39693</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/suits-t4-39693<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+<fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 5[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+        <fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/suits-t5-39694</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/suits-t5-39694<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
+<fanart>https://i.pinimg.com/originals/e0/d3/13/e0d3131a2dd0f1a42f97df985a119e45.jpg</fanart>
+</item>

@@ -1,0 +1,564 @@
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]DC[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/308a/f/2016/080/b/8/dc_extended_universe_folder_icon_by_sajalhasan-d9w0ghn.png</thumbnail>
+        <fanart>http://thedropnews.com/wp-content/uploads/2017/06/DCEU.png</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/RickardoBuitron/dc-comic-77627</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/RickardoBuitron/dc-comic-77627<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/308a/f/2016/080/b/8/dc_extended_universe_folder_icon_by_sajalhasan-d9w0ghn.png</thumbnail>
+<fanart>http://thedropnews.com/wp-content/uploads/2017/06/DCEU.png</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Marvel[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/2254/f/2017/165/a/1/marvel_universe_folder_icon_by_iamanneme-dbco5nf.png</thumbnail>
+        <fanart>https://cdn.wallpapersafari.com/59/71/vYIn8w.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/RickardoBuitron/universo-cinematografico-marvel-77454</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/RickardoBuitron/universo-cinematografico-marvel-77454<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/2254/f/2017/165/a/1/marvel_universe_folder_icon_by_iamanneme-dbco5nf.png</thumbnail>
+<fanart>https://cdn.wallpapersafari.com/59/71/vYIn8w.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Peliculas 2017 (Orden Alfabetico)[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/373b/f/2015/182/9/a/movies_folder_icon_2_by_gterritory-d8zhhqe.png</thumbnail>
+        <fanart>http://www.wallpaperbetter.com/wallpaper/846/30/504/beach-sand-2017-720P-wallpaper.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/chukyfloo-youtube/2017-movis-84991/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/chukyfloo-youtube/2017-movis-84991/list,1,5<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/373b/f/2015/182/9/a/movies_folder_icon_2_by_gterritory-d8zhhqe.png</thumbnail>
+<fanart>http://www.wallpaperbetter.com/wallpaper/846/30/504/beach-sand-2017-720P-wallpaper.jpg</fanart>
+</item>
+
+<tem>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Estrenos (Pruebas)[/B][/COLOR]</title>
+  <thumbnail>http://www.thomasmurphyfuneraldirectors.com/img/icon-wip.png</thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Peliculas/Estrenos.xml</externallink>
+</item>
+
+<item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Cine Mexicano[/B][/COLOR]</title>
+  <thumbnail>https://image.ibb.co/gfGGQb/Mexicano.png</thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Peliculas/Mex.xml</externallink>
+</item>
+
+<tem>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Peliculas HD[/B][/COLOR]</title>
+  <thumbnail>http://files.softicons.com/download/folder-icons/neutro-theme-icons-by-samurai3/png/512/Folder-Movies.png</thumbnail>
+<fanart>http://cdn.wallpapersafari.com/5/60/P8ue9b.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Peliculas/PeliculasHD.xml</externallink>
+</item>
+
+<item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Sagas[/B][/COLOR]</title>
+  <thumbnail>https://image.ibb.co/in3D5b/Sagas.png</thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Peliculas/Sagas.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Peliculas variadas Español Latino[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://orig04.deviantart.net/4027/f/2015/088/8/a/movies_folder_icon_by_mikromike-d8nntky.png</thumbnail>
+        <fanart>http://dreamlovewallpapers.com/wp-content/uploads/2015/05/Tomorrowland-2015-Movie-Poster-HD-Wallpaper.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,15</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/IngArturo/super-coleccion-de-pelis-audio-latino-20342/list,1,15<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig04.deviantart.net/4027/f/2015/088/8/a/movies_folder_icon_by_mikromike-d8nntky.png</thumbnail>
+<fanart>http://dreamlovewallpapers.com/wp-content/uploads/2015/05/Tomorrowland-2015-Movie-Poster-HD-Wallpaper.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Cine Clasico y Epico (Peliculas retro)[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/niNvJw/Clasico.png</thumbnail>
+        <fanart>http://4.bp.blogspot.com/-nGn9lVRjedg/VSVpc3Z6tRI/AAAAAAAAHgs/rUF8YP_fyDY/s1600/2.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/cine-clasico-y-epico-73079/list,1,9</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/cine-clasico-y-epico-73079/list,1,9<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/niNvJw/Clasico.png</thumbnail>
+<fanart>http://4.bp.blogspot.com/-nGn9lVRjedg/VSVpc3Z6tRI/AAAAAAAAHgs/rUF8YP_fyDY/s1600/2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Belicas[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/h5QXyw/Belicas.png</thumbnail>
+        <fanart>http://3.bp.blogspot.com/-7xs38MgNcyQ/VYmW34uSopI/AAAAAAAASbc/GakbOD8Ezz0/s1600/the-pacific-4fd5fda25592b.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/belicas-20003/list,1,11</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/belicas-20003/list,1,11<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/h5QXyw/Belicas.png</thumbnail>
+<fanart>http://3.bp.blogspot.com/-7xs38MgNcyQ/VYmW34uSopI/AAAAAAAASbc/GakbOD8Ezz0/s1600/the-pacific-4fd5fda25592b.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]El Viejo Oeste[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/dXe9dw/oeste.png</thumbnail>
+        <fanart>http://wallpapercave.com/wp/YceIJfY.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/western-19889/list,1,27</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/western-19889/list,1,27<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/dXe9dw/oeste.png</thumbnail>
+<fanart>http://wallpapercave.com/wp/YceIJfY.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Misterio[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/c3gi5b/Misterio.png</thumbnail>
+        <fanart>http://hd.wallpaperswide.com/thumbs/mysterious_forest-t2.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/misterio-19965/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/misterio-19965/list,1,3<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/c3gi5b/Misterio.png</thumbnail>
+<fanart>http://hd.wallpaperswide.com/thumbs/mysterious_forest-t2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Coleccion Stephen King[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://t10.deviantart.net/dFVSwy0AvOYzalQ4Bhuw0nwiIAw=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre04/8e02/th/pre/f/2016/182/6/e/stephen_king_folder_by_gremlin696-da8f3wj.png</thumbnail>
+        <fanart>http://wallpapercave.com/wp/wp1888879.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/cinedelos80/coleccion-de-stephen-king-en-espanol-34464</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/cinedelos80/coleccion-de-stephen-king-en-espanol-34464<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://t10.deviantart.net/dFVSwy0AvOYzalQ4Bhuw0nwiIAw=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre04/8e02/th/pre/f/2016/182/6/e/stephen_king_folder_by_gremlin696-da8f3wj.png</thumbnail>
+<fanart>http://wallpapercave.com/wp/wp1888879.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Comedia[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/fzuLkb/Comedia.png</thumbnail>
+        <fanart>http://www.lanlinglaurel.com/data/out/97/4789297-comedy-wallpaper.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/comedia-19991/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/comedia-19991/list,1,3<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/fzuLkb/Comedia.png</thumbnail>
+<fanart>http://www.lanlinglaurel.com/data/out/97/4789297-comedy-wallpaper.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Terror[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/m3CjBG/Terror.png</thumbnail>
+        <fanart>http://1.bp.blogspot.com/-ytRc0PNgGfI/TtgxXUlFyeI/AAAAAAAAAFE/eDGOBFqjoPM/s1600/horror-wallpaper.png</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/terror-20055/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/terror-20055/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/m3CjBG/Terror.png</thumbnail>
+<fanart>http://1.bp.blogspot.com/-ytRc0PNgGfI/TtgxXUlFyeI/AAAAAAAAAFE/eDGOBFqjoPM/s1600/horror-wallpaper.png</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Ciencia Ficcion[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.ibb.co/fWHO5b/Ciencia_Ficcion.png</thumbnail>
+        <fanart>http://s1.picswalls.com/wallpapers/2015/10/11/sci-fi-high-definition-wallpaper_010022163_283.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/naredo/fantastico-20056/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/naredo/fantastico-20056/list,1,4<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.ibb.co/fWHO5b/Ciencia_Ficcion.png</thumbnail>
+<fanart>http://s1.picswalls.com/wallpapers/2015/10/11/sci-fi-high-definition-wallpaper_010022163_283.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Peliculas de Jackie Chan[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig11.deviantart.net/6dba/f/2017/096/4/b/jackie_chan_actor_folder_icon_by_sholang-db4um7r.png</thumbnail>
+        <fanart>https://cdn.cloudpix.co/images/jackie-chan/hd-wallpapers-jackie-chan-hd-wallpaper-celebrity-wallpaper-fccfe18a0a8f9b2159f6abb7d89b52b3-large-68236.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/movies/jackie-chan-dvdrip-ultra-super-dooper-mega-pack-1216/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/movies/jackie-chan-dvdrip-ultra-super-dooper-mega-pack-1216/list,1,3<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig11.deviantart.net/6dba/f/2017/096/4/b/jackie_chan_actor_folder_icon_by_sholang-db4um7r.png</thumbnail>
+<fanart>https://cdn.cloudpix.co/images/jackie-chan/hd-wallpapers-jackie-chan-hd-wallpaper-celebrity-wallpaper-fccfe18a0a8f9b2159f6abb7d89b52b3-large-68236.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Peliculas de Morgan Freeman[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://orig04.deviantart.net/4b5b/f/2013/178/b/e/through_the_wormhole_icon_folder_by_freenobite-d6awyyp.png</thumbnail>
+        <fanart>http://feelgrafix.com/data_images/out/23/943987-morgan-freeman.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/movies/morgan-freeman-movies-pack-dvdrip-xvid-done-1215/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/movies/morgan-freeman-movies-pack-dvdrip-xvid-done-1215/list,1,3<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://orig04.deviantart.net/4b5b/f/2013/178/b/e/through_the_wormhole_icon_folder_by_freenobite-d6awyyp.png</thumbnail>
+<fanart>http://feelgrafix.com/data_images/out/23/943987-morgan-freeman.jpg</fanart>
+</item>

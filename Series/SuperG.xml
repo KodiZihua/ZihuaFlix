@@ -1,0 +1,76 @@
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 1[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig05.deviantart.net/920b/f/2015/222/6/e/supergirl_tv_series_folder_icon_by_giilpereiraa-d9558op.png</thumbnail>
+        <fanart>https://s-media-cache-ak0.pinimg.com/originals/55/7c/5b/557c5b1852e9f24e0263b5c4985fb8df.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/carmenJerezano/supergirl-1-temporada-47359</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/carmenJerezano/supergirl-1-temporada-47359<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig05.deviantart.net/920b/f/2015/222/6/e/supergirl_tv_series_folder_icon_by_giilpereiraa-d9558op.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/55/7c/5b/557c5b1852e9f24e0263b5c4985fb8df.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 2[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig05.deviantart.net/920b/f/2015/222/6/e/supergirl_tv_series_folder_icon_by_giilpereiraa-d9558op.png</thumbnail>
+        <fanart>https://s-media-cache-ak0.pinimg.com/originals/55/7c/5b/557c5b1852e9f24e0263b5c4985fb8df.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/carmenJerezano/supergirl-2-temporada-subiendo-47365</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/carmenJerezano/supergirl-2-temporada-subiendo-47365<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig05.deviantart.net/920b/f/2015/222/6/e/supergirl_tv_series_folder_icon_by_giilpereiraa-d9558op.png</thumbnail>
+<fanart>https://s-media-cache-ak0.pinimg.com/originals/55/7c/5b/557c5b1852e9f24e0263b5c4985fb8df.jpg</fanart>
+</item>

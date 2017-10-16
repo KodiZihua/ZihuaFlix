@@ -1,0 +1,227 @@
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Temporada 1[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+        <fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/IngArturo/star-wars-clone-t1-64948</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/IngArturo/star-wars-clone-t1-64948<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+<fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Temporada 2[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+        <fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/IngArturo/star-wars-clone-t2-65249</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/IngArturo/star-wars-clone-t2-65249<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+<fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Temporada 3[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+        <fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/IngArturo/star-wars-clone-t3-65266</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/IngArturo/star-wars-clone-t3-65266<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+<fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Temporada 4[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+        <fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/IngArturo/star-wars-clone-t4-66659</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/IngArturo/star-wars-clone-t4-66659<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+<fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Temporada 5[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+        <fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/IngArturo/star-wars-clone-t5-66860</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/IngArturo/star-wars-clone-t5-66860<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+<fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Temporada 6[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+		<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+        <fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/IngArturo/star-wars-clone-t6-67054</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/IngArturo/star-wars-clone-t6-67054<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-1vveK2c0eu4/TtaSyHYlhtI/AAAAAAAAGhQ/kY8Zg7OzM_g/s1600/STAR+WARS.jpg</thumbnail>
+<fanart>http://www.thestarwarstrilogy.com/StarWars/wallpaper/the-clone-wars/star-wars-the-clone-wars-01.jpg</fanart>
+</item>

@@ -1,0 +1,189 @@
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 1[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+        <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jamesplo4/srcl1-23728/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jamesplo4/srcl1-23728/list,1,4<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+<fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 2[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+        <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jamesplo4/srcl2-23866/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jamesplo4/srcl2-23866/list,1,4<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+<fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 3[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+        <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/jamesplo4/srcl3-23815/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/jamesplo4/srcl3-23815/list,1,5<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+<fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 4[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+        <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/joshito/el-senor-dl-cielos-t-04-1080p-latino-full-hd-mp4-24795/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/joshito/el-senor-dl-cielos-t-04-1080p-latino-full-hd-mp4-24795/list,1,5<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+<fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 5[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+        <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/monnet/el-senor-de-los-cielos-5-peticion-045-de-79287/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/monnet/el-senor-de-los-cielos-5-peticion-045-de-79287/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/-bStuIw8RQPs/UdpjkEj-lqI/AAAAAAAAmbc/c-F798Q1ZjQ/s640/El+Se%C3%B1or+de+los+Cielos+-+Poster.png</thumbnail>
+<fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/promo/movie/2014/10/21/el-senor-de-los-cielos-2-fotonovela.jpg</fanart>
+</item>

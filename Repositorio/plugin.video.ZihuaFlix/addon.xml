@@ -1,0 +1,36 @@
+<?xml version="0.2" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ZihuaFlix"
+       name="[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR]"
+       version="0.2"
+       provider-name="Angel P. Chavez">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+<extension point="xbmc.addon.repository" name="[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR]">
+        <info>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/KodiZihua/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] Es un addon de contenido variado enfocado al publico latino</summary>
+    <description>Este addon es Gratuito- Pero se mantiene en Base a Donaciones Voluntarias! angel_chavez81@hotmail.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>

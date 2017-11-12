@@ -80,7 +80,7 @@
   <thumbnail>https://static.cinemagia.ro/img/db/movie/56/68/67/el-barco-707770l.jpg</thumbnail>
 <fanart>http://fotografias.antena3.com/clipping/cmsimages02/2012/10/15/56FE6F1B-70E0-43DC-BF88-C125C6122574/57.jpg</fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Barco.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Barco.xml</externallink>
 </item>
 
 <item>
@@ -278,7 +278,7 @@
   <thumbnail>https://media.redadn.es/series/p/o/300.jpg</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Serrano.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Serrano.xml</externallink>
 </item>
 
 <item>
@@ -970,7 +970,7 @@
   <thumbnail>http://i89.servimg.com/u/f89/13/69/51/58/aida10.jpg</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Aida.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Aida.xml</externallink>
 </item>
 
 <item>
@@ -1662,7 +1662,7 @@
   <thumbnail>https://www.warnerbros.com/sites/default/files/styles/key_art_270x400/public/falcon_crest_season3_keyart.jpg</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Falcon.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Falcon.xml</externallink>
 </item>
 
 <item>
@@ -3570,7 +3570,7 @@
   <thumbnail>http://1.bp.blogspot.com/-0V-N6TRETOU/VPM90sBORWI/AAAAAAAAI8I/Q4I0T0AxF8I/s1600/sala%2Bde%2Burgencias.jpg</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Sala.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Sala.xml</externallink>
 </item>
 
 <item>
@@ -3692,7 +3692,7 @@
   <thumbnail>http://i45.tinypic.com/29xwtt.jpg</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Vecinos.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Vecinos.xml</externallink>
 </item>
 
 <item>
@@ -5555,4 +5555,726 @@
 </regex>
 <thumbnail>http://4.bp.blogspot.com/-AaqES_kG_yY/UbbKl1ICZxI/AAAAAAAAlzA/VcvVOFgiatM/s640/La+Patrona+-+Poster+Estreno.png</thumbnail>
 <fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]300 años de amor[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://vignette4.wikia.nocookie.net/doblaje/images/f/fa/250px-Queen_In-hyun%27s_Man.jpg</thumbnail>
+        <fanart>http://www.teleamazonas.com/wp-content/uploads/2017/01/BANNER-1024_300A%C3%B1osDeAmor_gen.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/300-anos-de-amor-72099</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/300-anos-de-amor-72099<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://vignette4.wikia.nocookie.net/doblaje/images/f/fa/250px-Queen_In-hyun%27s_Man.jpg</thumbnail>
+<fanart>http://www.teleamazonas.com/wp-content/uploads/2017/01/BANNER-1024_300A%C3%B1osDeAmor_gen.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]1000 hombres[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://vignette.wikia.nocookie.net/drama/images/b/bb/TheThousandthManMBC2012.jpg</thumbnail>
+        <fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/1000-hombres-72233</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/1000-hombres-72233<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://vignette.wikia.nocookie.net/drama/images/b/bb/TheThousandthManMBC2012.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]My love another star[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://1.soompi.io/wp-content/uploads/2013/12/Poster-Man-from-the-stars.jpg</thumbnail>
+        <fanart>https://1.soompi.io/wp-content/uploads/2013/12/Poster-Man-from-the-stars.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/my-love-from-the-star-72761</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/my-love-from-the-star-72761<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://1.soompi.io/wp-content/uploads/2013/12/Poster-Man-from-the-stars.jpg</thumbnail>
+<fanart>https://1.soompi.io/wp-content/uploads/2013/12/Poster-Man-from-the-stars.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]My lovable girl[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://www.dramafever.com/st/news/images/MyLovableGirl_WP_iPhone4.jpg</thumbnail>
+        <fanart>https://kjtamusings.files.wordpress.com/2014/11/we22998639_w1738.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/shes-so-lovable-73026</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/shes-so-lovable-73026<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.dramafever.com/st/news/images/MyLovableGirl_WP_iPhone4.jpg</thumbnail>
+<fanart>https://kjtamusings.files.wordpress.com/2014/11/we22998639_w1738.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]El principe del cafe[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://img.tviso.com/ES/poster/w430/93/3d/933db3294f7a6f22cebd56e1d8233666.jpg</thumbnail>
+        <fanart>https://www.dramafever.com/st/img/nowplay/1_CoffeePrince_Nowplay_Small.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/el-principe-del-cafe-73065</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/el-principe-del-cafe-73065<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://img.tviso.com/ES/poster/w430/93/3d/933db3294f7a6f22cebd56e1d8233666.jpg</thumbnail>
+<fanart>https://www.dramafever.com/st/img/nowplay/1_CoffeePrince_Nowplay_Small.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]The Heirs[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://www.dramafever.com/st/news/images/heirs1_1.jpg</thumbnail>
+        <fanart>https://www.dramafever.com/st/news/images/4274_Heirs_2560x1440_wallpaper.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/the-heirs-73346</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/the-heirs-73346<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://www.dramafever.com/st/news/images/heirs1_1.jpg</thumbnail>
+<fanart>https://www.dramafever.com/st/news/images/4274_Heirs_2560x1440_wallpaper.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Personal Taste[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://www.thaimokit.com/photo/Poster/Asian/PP-6078M-bi-Personal-Taste.jpg</thumbnail>
+        <fanart>https://i.pinimg.com/originals/c0/67/41/c06741fe67cd6b0bff2bd603e0d291c2.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/personal-taste-74414</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/personal-taste-74414<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://www.thaimokit.com/photo/Poster/Asian/PP-6078M-bi-Personal-Taste.jpg</thumbnail>
+<fanart>https://i.pinimg.com/originals/c0/67/41/c06741fe67cd6b0bff2bd603e0d291c2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Eres mi estrella[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://a.wattpad.com/cover/112522190-352-k549352.jpg</thumbnail>
+        <fanart>http://cdn.isn.bz/s1/public/cbg/53647297ed538.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/eres-mi-estrella-74392</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/eres-mi-estrella-74392<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://a.wattpad.com/cover/112522190-352-k549352.jpg</thumbnail>
+<fanart>http://cdn.isn.bz/s1/public/cbg/53647297ed538.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Cinderella man[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://upload.wikimedia.org/wikipedia/en/d/da/Cinderella_Man-poster.jpg</thumbnail>
+        <fanart>http://images2.fanpop.com/images/photos/6100000/Cinderella-Man-korean-dramas-6160273-945-737.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/cinderella-man-74622</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/cinderella-man-74622<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/d/da/Cinderella_Man-poster.jpg</thumbnail>
+<fanart>http://images2.fanpop.com/images/photos/6100000/Cinderella-Man-korean-dramas-6160273-945-737.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Bride of the Water God[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://i.pinimg.com/originals/14/9c/6a/149c6a210c580cc1c9a81ded17b0ea24.jpg</thumbnail>
+        <fanart>https://i.ytimg.com/vi/k-4VOfBxpB8/maxresdefault.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/bride-of-the-water-god-en-emision-77821</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/bride-of-the-water-god-en-emision-77821<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.pinimg.com/originals/14/9c/6a/149c6a210c580cc1c9a81ded17b0ea24.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/k-4VOfBxpB8/maxresdefault.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Oh! My Venus[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://upload.wikimedia.org/wikipedia/en/8/89/Oh_My_Venus_%28%EC%98%A4_%EB%A7%88%EC%9D%B4_%EB%B9%84%EB%84%88%EC%8A%A4%29_Promotional_poster.jpg</thumbnail>
+        <fanart>https://edramaclouds.files.wordpress.com/2015/12/omvheadercw.jpg?w=810</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/oh-my-venus-79251</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/oh-my-venus-79251<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/8/89/Oh_My_Venus_%28%EC%98%A4_%EB%A7%88%EC%9D%B4_%EB%B9%84%EB%84%88%EC%8A%A4%29_Promotional_poster.jpg</thumbnail>
+<fanart>https://edramaclouds.files.wordpress.com/2015/12/omvheadercw.jpg?w=810</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Dream High[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://2.bp.blogspot.com/-rXipVdCL-w0/VqSJ0oPKWCI/AAAAAAAABY4/xKiI7EdH2eU/s1600/Screen%2BShot%2B2016-01-23%2Bat%2B3.43.48%2BPM.png</thumbnail>
+        <fanart>https://i.pinimg.com/236x/d0/1c/64/d01c64a4068071850f6192ce5686ce02--dream-high-dreams.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/dream-highsuena-sin-limites-79627</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/dream-highsuena-sin-limites-79627<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://2.bp.blogspot.com/-rXipVdCL-w0/VqSJ0oPKWCI/AAAAAAAABY4/xKiI7EdH2eU/s1600/Screen%2BShot%2B2016-01-23%2Bat%2B3.43.48%2BPM.png</thumbnail>
+<fanart>https://i.pinimg.com/236x/d0/1c/64/d01c64a4068071850f6192ce5686ce02--dream-high-dreams.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Amor Azul[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://vignette4.wikia.nocookie.net/doblaje/images/4/4e/Amor_azul.jpg</thumbnail>
+        <fanart>http://mundodrama.newsensehost.com/wp-content/uploads/2016/08/small-slider-amor-azul-new.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/amor-azul-aud-lat-79714/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/amor-azul-aud-lat-79714/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://vignette4.wikia.nocookie.net/doblaje/images/4/4e/Amor_azul.jpg</thumbnail>
+<fanart>http://mundodrama.newsensehost.com/wp-content/uploads/2016/08/small-slider-amor-azul-new.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Oh! My lady[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://3.bp.blogspot.com/_8MoVr2K3psg/TN69JmnErII/AAAAAAAAAGE/QMoFrtEIEhA/s1600/Oh_My_Lady_Korean_Drama_3649_poster.jpg</thumbnail>
+        <fanart>http://pm1.narvii.com/6047/1e16a30392bbaea222e3298d74143201537558fb_hq.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/oh-my-lady-79844</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/oh-my-lady-79844<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://3.bp.blogspot.com/_8MoVr2K3psg/TN69JmnErII/AAAAAAAAAGE/QMoFrtEIEhA/s1600/Oh_My_Lady_Korean_Drama_3649_poster.jpg</thumbnail>
+<fanart>http://pm1.narvii.com/6047/1e16a30392bbaea222e3298d74143201537558fb_hq.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Mary esta fuera por la noche[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://vignette.wikia.nocookie.net/doblaje/images/8/8a/Mary_drama.jpg/revision/latest/scale-to-width-down/326?cb=20150203225730&path-prefix=es</thumbnail>
+        <fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/merry-esta-fuera-por-la-noche-79949</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/merry-esta-fuera-por-la-noche-79949<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://vignette.wikia.nocookie.net/doblaje/images/8/8a/Mary_drama.jpg/revision/latest/scale-to-width-down/326?cb=20150203225730&path-prefix=es</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]My little Princess[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://001.img.pu.sohu.com.cn/group2/M05/47/6B/MTAuMTAuODguODI=/dXBsb2FkRmlsZV85XzE0NzEyMzExNzgxNjY=.jpg</thumbnail>
+        <fanart>https://i.pinimg.com/originals/07/11/e5/0711e5c021f25d896ca40bf3747ca1f0.png</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/my-little-princess-80039</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/my-little-princess-80039<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://001.img.pu.sohu.com.cn/group2/M05/47/6B/MTAuMTAuODguODI=/dXBsb2FkRmlsZV85XzE0NzEyMzExNzgxNjY=.jpg</thumbnail>
+<fanart>https://i.pinimg.com/originals/07/11/e5/0711e5c021f25d896ca40bf3747ca1f0.png</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]1000 dias de promesas[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://vignette3.wikia.nocookie.net/doblaje/images/f/f1/AThousandDaysPromiseSBS.jpg</thumbnail>
+        <fanart>http://1.bp.blogspot.com/-FRY-7YxcfdE/T-tAIqwxOuI/AAAAAAAAAA4/9rjvxbOln-k/s1600/key_art_a_thousand_days_promise.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/mil-dias-de-promesas-80049</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/mil-dias-de-promesas-80049<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://vignette3.wikia.nocookie.net/doblaje/images/f/f1/AThousandDaysPromiseSBS.jpg</thumbnail>
+<fanart>http://1.bp.blogspot.com/-FRY-7YxcfdE/T-tAIqwxOuI/AAAAAAAAAA4/9rjvxbOln-k/s1600/key_art_a_thousand_days_promise.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Secret forest[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://image.phimmoi.net/film/5392/poster.medium.jpg</thumbnail>
+        <fanart>http://drakorsub.com/wp-content/uploads/2017/06/secretforest-poster-1.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/secret-forest-80350</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/secret-forest-80350<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://image.phimmoi.net/film/5392/poster.medium.jpg</thumbnail>
+<fanart>http://drakorsub.com/wp-content/uploads/2017/06/secretforest-poster-1.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B][/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://image.tmdb.org/t/p/w300_and_h450_bestv2/okUxALg0RQarUiWOtS8iwq6CNOO.jpg</thumbnail>
+        <fanart>https://www.dramafever.com/st/img/nowplay/5059_StrongestDeliveryman_Nowplay_Small.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/strongest-deliveryman-en-emision-80395</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/strongest-deliveryman-en-emision-80395<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://image.tmdb.org/t/p/w300_and_h450_bestv2/okUxALg0RQarUiWOtS8iwq6CNOO.jpg</thumbnail>
+<fanart>https://www.dramafever.com/st/img/nowplay/5059_StrongestDeliveryman_Nowplay_Small.jpg</fanart>
 </item>

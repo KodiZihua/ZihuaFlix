@@ -1,11 +1,179 @@
 
 <item>
-<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Marvel's Inhumans (Subiendo)[/B][/COLOR]</title>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Los Simpson[/B][/COLOR]</title>
+  <thumbnail>https://orig00.deviantart.net/a09b/f/2013/141/a/8/the_simpsons_folder_icon__tv_series__by_vivvien-d664v3q.png</thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Simpson.xml</externallink>
+</item>
+ 
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]The Shannnara Chronicles[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
         <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/c1f2/f/2016/229/9/4/the_shannara_chronicles_s01_icon_folder_by_theo122-dadzc8t.png</thumbnail>
+        <fanart>http://7wallpapers.net/wp-content/uploads/12_The-Shannara-Chronicles.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/eguzmanmtz/the-shannara-chronicles-sub-91480</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/eguzmanmtz/the-shannara-chronicles-sub-91480<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/c1f2/f/2016/229/9/4/the_shannara_chronicles_s01_icon_folder_by_theo122-dadzc8t.png</thumbnail>
+<fanart>http://7wallpapers.net/wp-content/uploads/12_The-Shannara-Chronicles.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Frontier[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/dc5c/f/2016/308/8/f/frontier_folder_icon_by_iamanneme-dan9dal.png</thumbnail>
+        <fanart>http://www.bellmedia.ca/wp-content/uploads/2016/10/FrontierGroupShot_Retouched_LRG-2-1280x800.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/eguzmanmtz/frontier-sub-89359</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/eguzmanmtz/frontier-sub-89359<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/dc5c/f/2016/308/8/f/frontier_folder_icon_by_iamanneme-dan9dal.png</thumbnail>
+<fanart>http://www.bellmedia.ca/wp-content/uploads/2016/10/FrontierGroupShot_Retouched_LRG-2-1280x800.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Lucifer[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig05.deviantart.net/b2eb/f/2015/263/8/2/lucifer_s1_by_buddhajef-d9adabl.png</thumbnail>
+        <fanart>https://images6.alphacoders.com/752/thumb-1920-752073.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/eguzmanmtz/lucifer-sub-87216/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/eguzmanmtz/lucifer-sub-87216/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig05.deviantart.net/b2eb/f/2015/263/8/2/lucifer_s1_by_buddhajef-d9adabl.png</thumbnail>
+<fanart>https://images6.alphacoders.com/752/thumb-1920-752073.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]The good Doctor[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/ac24/f/2017/219/f/5/the_good_doctor_v1_by_vamps1-dbj9jia.png</thumbnail>
+        <fanart>https://cdn0-a.production.vidio.static6.com/uploads/video/image/1052056/tvnetflix-75d1db.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/eguzmanmtz/the-good-doctor-sub-86800</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/eguzmanmtz/the-good-doctor-sub-86800<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/ac24/f/2017/219/f/5/the_good_doctor_v1_by_vamps1-dbj9jia.png</thumbnail>
+<fanart>https://cdn0-a.production.vidio.static6.com/uploads/video/image/1052056/tvnetflix-75d1db.jpg</fanart>
+</item>
+
+<item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Stranger Things[/B][/COLOR]</title>
+  <thumbnail>http://orig04.deviantart.net/829a/f/2016/173/c/2/stranger_things_folder_icon_by_viro9-da79j95.png</thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/ST.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Marvel's Inhumans (Subiendo)[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/d199/f/2017/177/1/1/inhumans_series_folder_by_nallan01-dbe3eob.png</thumbnail>
         <fanart>http://www.returndates.com/backgrounds/inhumans.jpg</fanart>
@@ -43,7 +211,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/89e4/f/2016/252/6/8/this_is_us_series_folder_by_nallan01-dah0zg9.png</thumbnail>
         <fanart>http://www.backgroundhdwallpapers.com/wp-content/uploads/2016/12/This-Is-Us-2016-HD-Wallpapers-1.jpg</fanart>
@@ -81,7 +249,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/e4f6/f/2017/196/b/0/the_gifted___tv_series_folder_icon_by_dyiddo-dbggfcn.png</thumbnail>
         <fanart></fanart>
@@ -119,7 +287,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/3045/f/2017/238/e/e/the_tick_tv_series_folder_icon_by_luciangarude-dblfzlz.png</thumbnail>
         <fanart>https://wallpapershome.com/images/pages/pic_hs/13467.jpg</fanart>
@@ -152,12 +320,20 @@
 </item>
 
 <item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Rick y Morti[/B][/COLOR]</title>
+  <thumbnail>https://orig00.deviantart.net/d2f4/f/2016/229/a/0/rick_and_morty___folder_icon_by_brbaflo-daea2as.png</thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/RyM.xml</externallink>
+</item>
+ 
+<item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Mr. Pickles[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/6859/f/2015/153/d/f/mr_pickles_by_drachenfeuer981-d8vt3m7.png</thumbnail>
         <fanart>https://i.imgur.com/zA7hqRu.jpg</fanart>
@@ -195,7 +371,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/6550/f/2015/016/1/c/over_the_garden_wall_folder_icon_by_in4inity-d8e5ytk.png</thumbnail>
         <fanart>https://i.pinimg.com/originals/e5/d5/8f/e5d58fbb2326b6631aed51e2f15c49ff.png</fanart>
@@ -233,7 +409,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/097e/f/2017/174/4/f/young_sheldon_v1_by_mrtoto231201-dbdq4k3.png</thumbnail>
         <fanart>http://www.tvwatchus.com/wp-content/uploads/2017/03/328724-2.jpg</fanart>
@@ -271,7 +447,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig05.deviantart.net/9485/f/2017/139/5/2/defenders_tv_series_folder_icon_by_luciangarude-db9ocke.png</thumbnail>
         <fanart>https://orig07.deviantart.net/a154/f/2017/123/b/0/marvel_s_the_defenders_wallpaper_by_the_dark_mamba_995-db7zcd0.jpg</fanart>
@@ -308,7 +484,7 @@
   <thumbnail>http://orig07.deviantart.net/8727/f/2015/279/7/4/marco_polo_folder_icon__png__by_j4lu7-d9c81ve.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Marco.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Marco.xml</externallink>
 </item>
  
 <item>
@@ -316,7 +492,7 @@
   <thumbnail>https://orig11.deviantart.net/14dc/f/2015/199/a/d/the_affair___tv_series_folder_icon_v2_by_dyiddo-d91thnk.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Affair.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Affair.xml</externallink>
 </item>
  
 <item>
@@ -324,7 +500,7 @@
   <thumbnail>http://orig01.deviantart.net/7f30/f/2015/277/7/4/reign___tv_series_folder_icon_v2_by_dyiddo-d9by1xa.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Reign.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Reign.xml</externallink>
 </item>
  
 <item>
@@ -332,7 +508,7 @@
   <thumbnail>http://iv1.lisimg.com/image/9623842/512full-mozart-in-the-jungle-artwork.jpg</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Mozart.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Mozart.xml</externallink>
 </item>
  
 <item>
@@ -340,7 +516,7 @@
   <thumbnail>https://orig11.deviantart.net/f9f1/f/2015/321/9/c/into_the_badlands_folder_icon_by_poxabia-d9h1y6l.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Badlands.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Badlands.xml</externallink>
 </item>
  
 <item>
@@ -348,7 +524,7 @@
   <thumbnail>https://img03.deviantart.net/0cf8/i/2012/355/a/6/deadwood_windows_folder_icon_by_rbusbee-d5orbw8.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Deadwood.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Deadwood.xml</externallink>
 </item>
  
 <item>
@@ -356,7 +532,7 @@
   <thumbnail>https://orig09.deviantart.net/32d6/f/2016/137/7/7/the_knick_folder_icon_by_viro9-da2ryc5.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Knick.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Knick.xml</externallink>
 </item>
  
 <item>
@@ -364,7 +540,7 @@
   <thumbnail>https://orig05.deviantart.net/d3ab/f/2015/277/6/f/the_leftovers___tv_series_folder_icon_v3_by_dyiddo-d9by3t5.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/TheLeft.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/TheLeft.xml</externallink>
 </item>
 
 <item>
@@ -372,7 +548,7 @@
   <thumbnail>https://orig06.deviantart.net/9084/f/2017/125/5/c/twin_peaks_v2_tv_drama_folder_icon_by_zenoasis-db896mp.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Twin.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Twin.xml</externallink>
 </item>
 
 <item>
@@ -380,7 +556,7 @@
   <thumbnail>http://orig04.deviantart.net/e5cf/f/2013/053/0/0/carnivale_by_apollojr-d5vt2so.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Carnivale.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Carnivale.xml</externallink>
 </item>
 
 <item>
@@ -388,7 +564,7 @@
   <thumbnail>https://orig15.deviantart.net/b9e9/f/2014/264/3/8/scorpion_by_rest_in_torment-d7zzoo5.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Scorpion.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Scorpion.xml</externallink>
 </item>
 
 <item>
@@ -396,7 +572,7 @@
   <thumbnail>http://icons.iconarchive.com/icons/atti12/tv-series-folder-5/512/Revolution-icon.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Revolution.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Revolution.xml</externallink>
 </item>
 
 <item>
@@ -404,7 +580,7 @@
   <thumbnail>https://orig01.deviantart.net/98fe/f/2015/068/9/2/the_musketeers_v2_folder_by_anapaulalohan-d8l42h9.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Mosque.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Mosque.xml</externallink>
 </item>
 
 <item>
@@ -413,7 +589,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig11.deviantart.net/b39c/f/2015/152/2/7/forever_series_folder_by_orlanef-d8vl609.png</thumbnail>
         <fanart>http://cdn.wallpapersafari.com/62/50/myEYDw.jpg</fanart>
@@ -451,7 +627,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Elementary-icon.png</thumbnail>
         <fanart>https://images8.alphacoders.com/501/501667.jpg</fanart>
@@ -484,50 +660,12 @@
 </item>
 
 <item>
-<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Lucifer[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig05.deviantart.net/b2eb/f/2015/263/8/2/lucifer_s1_by_buddhajef-d9adabl.png</thumbnail>
-        <fanart>https://images6.alphacoders.com/752/thumb-1920-752073.jpg</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/maria-santos-lopez/lucifer-1-y-2-46866/list,1,2</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/maria-santos-lopez/lucifer-1-y-2-46866/list,1,2<referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://orig05.deviantart.net/b2eb/f/2015/263/8/2/lucifer_s1_by_buddhajef-d9adabl.png</thumbnail>
-<fanart>https://images6.alphacoders.com/752/thumb-1920-752073.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Recien llegados[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig12.deviantart.net/35cb/f/2015/035/3/8/fresh_off_the_boat_by_rest_in_torment-d8goqp3.png</thumbnail>
         <fanart>http://www.entertainmentwallpaper.com/images/res1920x1080/movie/tv-fresh-off-the-boat02.jpg</fanart>
@@ -565,7 +703,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig06.deviantart.net/cb4e/f/2016/306/0/0/sense8_tv_series_folder_icon_for_windows_by_kmphotoshop-dan39lj.png</thumbnail>
         <fanart>http://wallpapersdsc.net/wp-content/uploads/2016/09/Sense8-Wallpapers.jpg</fanart>
@@ -603,7 +741,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig12.deviantart.net/528c/f/2015/174/e/e/heroes_reborn___tv_series_folder_icon_v2_by_dyiddo-d8yiihd.png</thumbnail>
         <fanart>http://www.misucell.com/data/out/12/IMG_485261.jpg</fanart>
@@ -641,7 +779,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig03.deviantart.net/95af/f/2013/335/1/4/band_of_brothers___v2_by_rest_in_torment-d6we3gr.png</thumbnail>
         <fanart>https://diverseries.files.wordpress.com/2013/01/wallpaper-band-of-brothers-32444141-1920-1080.jpg</fanart>
@@ -679,7 +817,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig10.deviantart.net/73f9/f/2016/339/3/b/damien_tv_series_v2_by_drdarkdoom-d9uqsni.png</thumbnail>
         <fanart>https://www.hdwallpapers.in/walls/damien_2016_tv_series-HD.jpg</fanart>
@@ -717,7 +855,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig08.deviantart.net/223d/f/2015/231/4/2/dominion___tv_series_folder_icon_v1_by_dyiddo-d896wfc.png</thumbnail>
         <fanart>https://images6.alphacoders.com/565/565459.jpg</fanart>
@@ -755,7 +893,7 @@
   <thumbnail>http://icon-icons.com/icons2/357/PNG/512/Game_of_Thrones_512x512_36547.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/GOT.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/GOT.xml</externallink>
 </item>
 
 <item>
@@ -802,7 +940,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig04.deviantart.net/ab41/f/2013/273/7/c/castle_by_rest_in_torment-d6oddut.png</thumbnail>
         <fanart>http://cdn.wallpapersafari.com/40/17/cYeDG7.jpg</fanart>
@@ -840,7 +978,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Terra-Nova-icon.png</thumbnail>
         <fanart>https://s-media-cache-ak0.pinimg.com/originals/a2/5b/2c/a25b2c459294dfffe4e470b151366d15.jpg</fanart>
@@ -878,7 +1016,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig03.deviantart.net/1503/f/2014/359/e/8/jericho___tv_series_folder_icon_by_dyiddo-d8b6kfo.png</thumbnail>
         <fanart>https://gracemcgettigan.files.wordpress.com/2015/07/jericho1080.jpg</fanart>
@@ -916,7 +1054,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig09.deviantart.net/b401/f/2016/121/8/2/slasher___tv_series_folder_icon_v2_by_dyiddo-da0vuvu.png</thumbnail>
         <fanart>http://www.syfy.com/sites/syfy/files/Slasher_hero_exec02.jpg</fanart>
@@ -954,7 +1092,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig02.deviantart.net/d48a/f/2011/084/b/5/folder_icons_by_euterpemusa-d3cew8v.png</thumbnail>
         <fanart>https://images2.alphacoders.com/687/687291.jpg</fanart>
@@ -993,7 +1131,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig03.deviantart.net/1cbb/f/2017/115/6/d/roman_empire_reign_of_blood_tv_series_folder_icon_by_kimojee-db75nt8.png</thumbnail>
         <fanart>http://adolescent.nyc/wp-content/uploads/2016/11/AD65810_ROME.jpg</fanart>
@@ -1031,7 +1169,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig02.deviantart.net/4cc1/f/2012/030/b/2/criminal_minds_folder_by_obeyshi-d4o6qqo.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/oI0mSnI.jpg</fanart>
@@ -1069,7 +1207,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig06.deviantart.net/2458/f/2016/357/6/f/beyond_x_by_iamanneme-dasnqaj.png</thumbnail>
         <fanart>https://i.ytimg.com/vi/ATyS06nJvf0/maxresdefault.jpg</fanart>
@@ -1107,7 +1245,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig15.deviantart.net/3c45/f/2016/134/0/c/lost_folder_icon_by_viro9-da2gwot.png</thumbnail>
         <fanart>http://orig07.deviantart.net/eb0f/f/2010/004/b/c/lost_full_cast_with_text_by_wolverine080976.png</fanart>
@@ -1183,7 +1321,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig03.deviantart.net/77b2/f/2015/053/7/4/v___tv_series_folder_icon_by_dyiddo-d8j4okr.png</thumbnail>
         <fanart>https://pabblogger.files.wordpress.com/2009/12/v_2009_126_wallpaper.jpg</fanart>
@@ -1221,7 +1359,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig05.deviantart.net/f35c/f/2015/129/4/7/hannibal___folder_icon_by_victorpereira97-d8ssf4b.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/DXq0duZ.jpg</fanart>
@@ -1259,7 +1397,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig05.deviantart.net/897a/f/2017/091/5/d/13_reasons_why_tv_series_folder_icon_by_kimojee-db490ta.png</thumbnail>
         <fanart>http://utero.pe/wp-content/uploads/2017/04/13-reasons-why-serie-de-tv-sound.jpg</fanart>
@@ -1296,7 +1434,7 @@
   <thumbnail>http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/The-Big-Bang-Theory-icon.png</thumbnail>
 <fanart>https://images8.alphacoders.com/431/431311.jpg</fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/TBBT.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/TBBT.xml</externallink>
 </item>
 
 <item>
@@ -1305,7 +1443,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig13.deviantart.net/2aad/f/2017/037/3/0/the_last_kingdom_v2_by_vamps1-day5z81.png</thumbnail>
         <fanart>http://wallpapersqq.net/wp-content/uploads/2015/11/The-Last-Kingdom-3.jpg</fanart>
@@ -1343,7 +1481,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig00.deviantart.net/cc29/f/2017/106/0/0/camelot___tv_series_folder_icon_v1_by_dyiddo-d84h27n.png</thumbnail>
         <fanart>http://www.wallpapers-web.com/data/out/43/4089432-camelot-wallpapers.jpg</fanart>
@@ -1381,7 +1519,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig00.deviantart.net/bf96/f/2015/235/9/a/narcos_folder_by_casimirslyt-d96vir7.png</thumbnail>
         <fanart>https://images6.alphacoders.com/633/thumb-1920-633644.jpg</fanart>
@@ -1419,7 +1557,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig01.deviantart.net/ef6b/f/2014/116/8/1/vikings_folder_icon_by_andreas86-d7g0x2v.png</thumbnail>
         <fanart>https://images.alphacoders.com/691/thumb-1920-691791.jpg</fanart>
@@ -1457,7 +1595,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig03.deviantart.net/2267/f/2017/078/9/5/marvel_iron_fist_icon_folder_by_mohandor-db2vapw.png</thumbnail>
         <fanart>https://geek-prime.com/wp-content/uploads/2016/07/Iron-fist-wallpaper.png</fanart>
@@ -1495,7 +1633,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig10.deviantart.net/742a/f/2015/337/e/6/shadowhunters_folder_icon_by_iamanneme-d9iv6sy.png</thumbnail>
         <fanart>http://shadowhunters.com/wp-content/uploads/assets/tmi-assets/Wallpaper-COA-1920x1080.jpg</fanart>
@@ -1533,7 +1671,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig02.deviantart.net/bd51/f/2016/276/9/3/luke_cage_series_folder_icon_by_zedskipper-dajptt9.png</thumbnail>
         <fanart>https://i.ytimg.com/vi/2IP2U9X5U8w/maxresdefault.jpg</fanart>
@@ -1570,7 +1708,7 @@
   <thumbnail>http://orig10.deviantart.net/c604/f/2015/202/c/2/mr__robot_folder_icon_black_and_red_by_psysym-d926x58.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Mr.Robot.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Mr.Robot.xml</externallink>
 </item>
 
 <item>
@@ -1578,7 +1716,7 @@
   <thumbnail>http://orig06.deviantart.net/6cc9/f/2014/063/1/a/defiance_by_rest_in_torment-d78xpib.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Defiance.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Defiance.xml</externallink>
 </item>
 
 <item>
@@ -1586,7 +1724,7 @@
   <thumbnail>http://orig01.deviantart.net/d665/f/2016/072/3/8/malcolm_in_the_middle___tv_series_folder_icon_by_dyiddo-d9uxvtm.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/MITM.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/MITM.xml</externallink>
 </item>
 
 <item>
@@ -1595,7 +1733,7 @@
   <thumbnail>http://orig15.deviantart.net/526f/f/2015/226/0/f/fear_the_walking_dead_by_rest_in_torment-d95mldu.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/FTWD.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/FTWD.xml</externallink>
 </item>
 
 <item>
@@ -1604,7 +1742,7 @@
   <thumbnail>http://orig00.deviantart.net/00e8/f/2013/210/3/a/prison_break_icon_by_mwesolowski-d6fo2f7.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/PB.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/PB.xml</externallink>
 </item>
 
 <item>
@@ -1613,7 +1751,7 @@
   <thumbnail>http://orig09.deviantart.net/860a/f/2016/072/4/5/lie_to_me___tv_series_folder_icon_v1_by_dyiddo-d896ol0.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/LTM.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/LTM.xml</externallink>
 </item>
 
 <item>
@@ -1622,7 +1760,7 @@
   <thumbnail>http://orig09.deviantart.net/06b1/f/2015/199/6/e/the_last_ship___tv_series___folder_icon_v1_by_dyiddo-d7gd1o2.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/TLS.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/TLS.xml</externallink>
 </item>
 
 <item>
@@ -1630,7 +1768,7 @@
   <thumbnail>https://orig06.deviantart.net/6039/f/2013/273/b/5/spartacus___v1_by_rest_in_torment-d6ok7jo.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Spartacus.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Spartacus.xml</externallink>
 </item>
 
 <item>
@@ -1638,7 +1776,7 @@
   <thumbnail>http://orig07.deviantart.net/7d08/f/2015/053/1/d/white_collar___tv_series_folder_icon_v2_by_dyiddo-d8j554y.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/WhiteCollar.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/WhiteCollar.xml</externallink>
 </item>
 
 <item>
@@ -1646,7 +1784,7 @@
   <thumbnail>http://orig03.deviantart.net/c1bc/f/2015/061/2/2/daredevil_tv_folder_by_buddhajef-d8k7f8o.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Daredevil.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Daredevil.xml</externallink>
 </item>
 
 <item>
@@ -1654,7 +1792,7 @@
   <thumbnail>http://orig09.deviantart.net/dcf9/f/2014/204/d/d/gotham_folder_icon_by_andreas86-d7ry4wx.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Gotham.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Gotham.xml</externallink>
 </item>
 
 <item>
@@ -1662,7 +1800,7 @@
   <thumbnail>http://orig15.deviantart.net/6154/f/2014/002/9/3/teen_wolf_by_rest_in_torment-d70j2qf.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/TeenWolf.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/TeenWolf.xml</externallink>
 </item>
 
 <item>
@@ -1670,7 +1808,7 @@
   <thumbnail>http://orig15.deviantart.net/0fd9/f/2015/126/f/9/breaking_bad___folder_icon_by_victorpereira97-d8sf6c4.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/BreakingBad.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/BreakingBad.xml</externallink>
 </item>
 
 <item>
@@ -1678,7 +1816,7 @@
   <thumbnail>http://orig02.deviantart.net/6adc/f/2015/270/9/a/orange_is_the_new_black_folder_icon_by_poxabia-d9b6vjq.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/ONB.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/ONB.xml</externallink>
 </item>
 
 <item>
@@ -1686,7 +1824,7 @@
   <thumbnail>http://orig00.deviantart.net/dc2d/f/2017/047/7/9/law_and_order_svu_folder_icon_version_3_by_chrisneville85-daz8zip.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/LeyYOrden.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/LeyYOrden.xml</externallink>
 </item>
 
 <item>
@@ -1694,7 +1832,7 @@
   <thumbnail>http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/The-walking-dead-icon.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/TWD.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/TWD.xml</externallink>
 </item>
 
 <item>
@@ -1702,7 +1840,7 @@
   <thumbnail>http://orig11.deviantart.net/c3a6/f/2013/273/7/9/dexter___v2_by_rest_in_torment-d6h4iwb.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Dexter.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Dexter.xml</externallink>
 </item>
 
 <item>
@@ -1710,7 +1848,7 @@
   <thumbnail>http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/The-Vampire-Diaries-v2-icon.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/DiariosVampiros.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/DiariosVampiros.xml</externallink>
 </item>
 
 <item>
@@ -1718,7 +1856,7 @@
   <thumbnail>http://orig08.deviantart.net/e937/f/2016/197/5/b/the_100_season_2__tv_series_folder_by_hey_rexjohn-daa9snm.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Los100.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Los100.xml</externallink>
 </item>
 
 <item>
@@ -1726,7 +1864,7 @@
   <thumbnail>http://orig13.deviantart.net/e5cd/f/2011/084/1/f/folder_icons_by_euterpemusa-d3cex0r.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/TrueBlood.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/TrueBlood.xml</externallink>
 </item>
 
 <item>
@@ -1734,7 +1872,7 @@
   <thumbnail>http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Sons-of-Anarchy-icon.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/SonsOfAnarchy.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/SonsOfAnarchy.xml</externallink>
 </item>
 
 <item>
@@ -1742,7 +1880,7 @@
   <thumbnail>http://orig10.deviantart.net/e313/f/2015/081/0/8/arrow___tv_series_folder_icon_v1_by_dyiddo-d896js9.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Arrow.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Arrow.xml</externallink>
 </item>
 
 <item>
@@ -1750,7 +1888,7 @@
   <thumbnail>http://orig05.deviantart.net/b17e/f/2015/277/7/a/z_nation___tv_series_folder_icon_by_dyiddo-d9bxob2.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/NationZ.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/NationZ.xml</externallink>
 </item>
 
 <item>
@@ -1758,7 +1896,7 @@
   <thumbnail>http://orig08.deviantart.net/2105/f/2013/180/5/d/under_the_dome_tv_series_folder_icon__1_by_furqan01-d6b6of2.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/UnderTheDome.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/UnderTheDome.xml</externallink>
 </item>
 
 <item>
@@ -1767,7 +1905,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig07.deviantart.net/a853/f/2015/226/1/7/blindspot_by_rest_in_torment-d95ml9d.png</thumbnail>
         <fanart>https://s-media-cache-ak0.pinimg.com/originals/50/b2/fc/50b2fc7782dc079272e9506091e5648d.jpg</fanart>
@@ -1990,44 +2128,6 @@
 </item>
 
 <item>
-<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Stranger Things[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR white]  [makelist.param3][/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-    <thumbnail>http://orig04.deviantart.net/829a/f/2016/173/c/2/stranger_things_folder_icon_by_viro9-da79j95.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/751/thumb-1920-751563.jpg</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/plague_666/stranger-things-s01-s02-sub-39030</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/plague_666/stranger-things-s01-s02-sub-39030<referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>http://orig04.deviantart.net/829a/f/2016/173/c/2/stranger_things_folder_icon_by_viro9-da79j95.png</thumbnail>
-<fanart>https://images3.alphacoders.com/751/thumb-1920-751563.jpg</fanart>
-</item>
-
-<item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Legion[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -2071,7 +2171,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://img03.deviantart.net/86e5/i/2016/181/f/4/pablo_escobar__el_patron_del_mal_folder_icon_by_sora1414-da86qtt.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/wp1877276.jpg</fanart>
@@ -2109,7 +2209,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://icons.iconarchive.com/icons/atti12/tv-series-folder/512/Heroes-icon.png</thumbnail>
         <fanart>https://serieheroes.files.wordpress.com/2008/02/w004.jpg</fanart>
@@ -2147,7 +2247,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig07.deviantart.net/270c/f/2013/335/4/8/smallville___v3_by_rest_in_torment-d6we7rz.png</thumbnail>
         <fanart>https://images7.alphacoders.com/334/334208.jpg</fanart>
@@ -2185,7 +2285,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig14.deviantart.net/0627/f/2017/059/6/7/taken_tv_series_folder_icon_by_kimojee-db0nxbi.png</thumbnail>
         <fanart>https://i.ytimg.com/vi/4SE7_4P19II/maxresdefault.jpg</fanart>
@@ -2223,7 +2323,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig04.deviantart.net/65b6/f/2015/067/3/1/bates_motel___tv_series_folder_icon_v1_by_dyiddo-d7n59yn.png</thumbnail>
         <fanart>http://i2.esmas.com/2015/06/06/774305/bates-motel-2-1920x1080.jpg</fanart>
@@ -2261,7 +2361,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig03.deviantart.net/ecc8/f/2016/173/6/f/another_period_folder_icon_by_spazaa-da7a8n2.png</thumbnail>
         <fanart>https://images8.alphacoders.com/669/669515.jpg</fanart>
@@ -2299,7 +2399,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig03.deviantart.net/ec72/f/2015/249/3/a/scream_queens___tv_series_folder_icon_v3_by_dyiddo-d98mm7y.png</thumbnail>
         <fanart>http://wallpapersqq.net/wp-content/uploads/2015/11/Scream-Queens-3.jpg</fanart>
@@ -2337,7 +2437,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig08.deviantart.net/bd98/f/2016/157/0/a/preacher___tv_series_folder_icon_v2_by_dyiddo-da57vl1.png</thumbnail>
         <fanart>http://static.srcdn.com/wp-content/uploads/Preacher-Wallpaper.jpg</fanart>
@@ -2375,7 +2475,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig01.deviantart.net/8379/f/2014/273/6/e/constantine_folder_icon_by_andreas86-d813438.png</thumbnail>
         <fanart>http://www.wallpapers-web.com/data/out/55/4201893-constantine-tv-series-wallpapers.jpg</fanart>
@@ -2413,7 +2513,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig01.deviantart.net/a669/f/2015/268/4/a/limitless_folder_icon_by_andreas86-d9atzoa.png</thumbnail>
         <fanart>https://images4.alphacoders.com/217/thumb-1920-217224.jpg</fanart>
@@ -2451,7 +2551,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig12.deviantart.net/55fb/f/2016/037/3/1/love___tv_series_folder_icon_by_dyiddo-d9qscul.png</thumbnail>
         <fanart>https://i.ytimg.com/vi/B7f3PtbOIBo/maxresdefault.jpg</fanart>
@@ -2488,7 +2588,7 @@
   <thumbnail>https://orig14.deviantart.net/0800/f/2017/106/9/a/24___tv_series_folder_icon_v1_by_dyiddo-d8971nu.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/24.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/24.xml</externallink>
 </item>
 
 <item>
@@ -2496,7 +2596,7 @@
   <thumbnail>http://s6.picofile.com/file/8189181042/devious_maids_by_apollojr_d68qzxc.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/24.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/24.xml</externallink>
 </item>
 
 <item>
@@ -2504,7 +2604,7 @@
   <thumbnail>https://orig13.deviantart.net/a798/f/2017/006/b/1/death_in_paradise_v3_2017_by_ungrateful601010-daueztf.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/DIP.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/DIP.xml</externallink>
 </item>
 
 <item>
@@ -2512,7 +2612,7 @@
   <thumbnail>http://orig09.deviantart.net/6797/f/2015/177/7/a/grantchester_tv_folder_icon_by_dashwatson-d8yxd12.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Grant.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Grant.xml</externallink>
 </item>
 
 <item>
@@ -2520,7 +2620,7 @@
   <thumbnail>https://orig02.deviantart.net/f5f3/f/2013/273/7/5/ray_donovan_by_rest_in_torment-d6nukok.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Ray.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Ray.xml</externallink>
 </item>
 
 <item>
@@ -2528,7 +2628,7 @@
   <thumbnail>https://orig06.deviantart.net/a3b6/f/2014/282/a/a/black_ish_season_1_v_1_by_nc_esseh-d825rlz.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Black.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Black.xml</externallink>
 </item>
 
 <item>
@@ -2537,7 +2637,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig04.deviantart.net/07ca/f/2016/130/f/2/marseille_folder_icon_by_viro9-da20ydt.png</thumbnail>
         <fanart>https://i.ytimg.com/vi/XIn7ZTxrruU/maxresdefault.jpg</fanart>
@@ -2574,7 +2674,7 @@
   <thumbnail>https://orig11.deviantart.net/caba/f/2014/275/a/a/madam_secretary_folder_by_anapaulalohan-d81e6g7.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Madam.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Madam.xml</externallink>
 </item>
 
 <item>
@@ -2583,7 +2683,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig12.deviantart.net/6ffd/f/2016/257/a/c/barbarians_rising_series_folder_2_by_nallan01-dahn086.png</thumbnail>
         <fanart>https://i.ytimg.com/vi/-UQsSC3seUo/maxresdefault.jpg</fanart>
@@ -2620,7 +2720,7 @@
   <thumbnail>http://orig11.deviantart.net/0512/f/2015/158/6/9/from_dusk_till_dawn___the_series___folder_icon_v1_by_dyiddo-d7epxsw.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/FDTD.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/FDTD.xml</externallink>
 </item>
 
 <item>
@@ -2628,7 +2728,7 @@
   <thumbnail>https://orig11.deviantart.net/4ac3/f/2017/108/1/9/line_of_duty___tv_series_folder_icon_by_dyiddo-db6awhw.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/LOD.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/LOD.xml</externallink>
 </item>
 
 <item>
@@ -2637,7 +2737,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig05.deviantart.net/837e/f/2016/287/3/f/timeless_season_1_folder_icon_by_mrnik1996-daky1eu.png</thumbnail>
         <fanart>http://images6.fanpop.com/image/photos/40200000/Timeless-Wallpaper-timeless-tv-series-40223320-1920-1080.jpg</fanart>
@@ -2675,7 +2775,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig05.deviantart.net/04d3/f/2016/288/a/e/haters_back_off__netflix____tv_folder__1_by_mishopetrov-dal2084.png</thumbnail>
         <fanart>https://i.ytimg.com/vi/bDDAClMibkM/hq720.jpg</fanart>
@@ -2713,7 +2813,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig04.deviantart.net/a296/f/2013/284/0/7/once_upon_a_time_in_wonderland_folder_icon_by_efest-d6q1lyx.png</thumbnail>
         <fanart>http://ava7.com/w/tv-series/once-upon-a-time-in-wonderland/once-upon-a-time-in-wonderland-tv-series-show.jpg</fanart>
@@ -2751,7 +2851,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig11.deviantart.net/f81d/f/2017/003/f/3/medici_tv_series_folder_icon_by_kimojee-dau2614.png</thumbnail>
         <fanart>http://releasedatetv.com/wp-content/uploads/2016/10/MMOF.jpg</fanart>
@@ -2789,7 +2889,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig13.deviantart.net/7043/f/2016/144/a/5/guilt_series_folder_by_nallan01-da3m08a.png</thumbnail>
         <fanart>http://wallpapersdsc.net/wp-content/uploads/2016/09/Guilt-TV-Series-Pictures.jpg</fanart>
@@ -2826,7 +2926,7 @@
   <thumbnail>https://orig10.deviantart.net/f214/f/2014/239/7/1/young_and_hungry_by_rest_in_torment-d7wxfih.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/ChefEnCasa.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/ChefEnCasa.xml</externallink>
 </item>
 
 <item>
@@ -2834,7 +2934,7 @@
   <thumbnail>https://orig08.deviantart.net/af19/f/2015/124/7/4/csi_cyber_folder_by_anapaulalohan-d8s4nv5.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Cyber.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Cyber.xml</externallink>
 </item>
 
 <item>
@@ -2842,7 +2942,7 @@
   <thumbnail>http://orig04.deviantart.net/56ca/f/2015/037/8/4/sirens__us__by_rest_in_torment-d8gxuqb.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Sirens.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Sirens.xml</externallink>
 </item>
 
 <item>
@@ -2850,7 +2950,7 @@
   <thumbnail>http://orig12.deviantart.net/fd47/f/2015/236/1/a/suits___folder_icon_by_rst_420-d96y4qp.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Suits.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Suits.xml</externallink>
 </item>
 
 <item>
@@ -2858,7 +2958,7 @@
   <thumbnail>http://orig12.deviantart.net/5a7e/f/2016/155/9/5/beauty_and_the_beast_series_folder_2_by_nallan01-da50895.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Bella.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Bella.xml</externallink>
 </item>
 
 <item>
@@ -2866,7 +2966,7 @@
   <thumbnail>http://orig06.deviantart.net/2b23/f/2015/150/7/4/tyrant___tv_series_folder_icon_v2_by_dyiddo-d8ve89h.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Tyrant.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Tyrant.xml</externallink>
 </item>
 
 <item>
@@ -2874,7 +2974,7 @@
   <thumbnail>http://iv1.lisimg.com/image/9630260/512full-deadbeat-artwork.jpg</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/DeadBeat.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/DeadBeat.xml</externallink>
 </item>
 
 <item>
@@ -2882,7 +2982,7 @@
   <thumbnail>https://orig06.deviantart.net/193d/f/2014/095/c/6/modern_family_folder_icon_by_andreas86-d7750f5.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Modern.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Modern.xml</externallink>
 </item>
 
 <item>
@@ -2890,7 +2990,7 @@
   <thumbnail>https://orig10.deviantart.net/6c85/f/2015/052/c/f/shameless_season5_folder_icon_by_andreas86-d8iwdlz.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Shame.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Shame.xml</externallink>
 </item>
 
 <item>
@@ -2898,7 +2998,7 @@
   <thumbnail>https://orig06.deviantart.net/d952/f/2013/255/e/d/masters_of_sex_folder_icon_by_efest-d6m0gnc.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Masters.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Masters.xml</externallink>
 </item>
 
 <item>
@@ -2906,7 +3006,7 @@
   <thumbnail>https://orig05.deviantart.net/920b/f/2015/222/6/e/supergirl_tv_series_folder_icon_by_giilpereiraa-d9558op.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/SuperG.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/SuperG.xml</externallink>
 </item>
 
 <item>
@@ -2914,7 +3014,7 @@
   <thumbnail>http://orig02.deviantart.net/8407/f/2015/174/d/5/californication_v2_by_caviya-d8yfxxb.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Californication.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Californication.xml</externallink>
 </item>
 
 <item>
@@ -2923,7 +3023,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig09.deviantart.net/a2d6/f/2016/343/e/3/designated_survivor_v2_by_vamps1-dar4iwq.png</thumbnail>
         <fanart>https://i.redd.it/cjjxi6bqp06y.png</fanart>
@@ -2960,7 +3060,7 @@
   <thumbnail>https://orig01.deviantart.net/6c04/f/2016/165/e/7/how_to_get_away_with_murder_folder_icon_by_falcos8-da67402.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Murder.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Murder.xml</externallink>
 </item>
 
 <item>
@@ -2968,7 +3068,7 @@
   <thumbnail>https://orig00.deviantart.net/e5ac/f/2015/004/8/e/empire_folder_icon_by_andreas86-d8cg8te.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Empire.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Empire.xml</externallink>
 </item>
 
 <item>
@@ -2976,7 +3076,7 @@
   <thumbnail>https://orig00.deviantart.net/d5e7/f/2015/277/0/0/the_blacklist___tv_series_folder_icon_v3_by_dyiddo-d9bxslt.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Blacklist.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Blacklist.xml</externallink>
 </item>
 
 <item>
@@ -2984,7 +3084,7 @@
   <thumbnail>https://orig09.deviantart.net/b523/f/2015/035/9/0/gomorra_by_rest_in_torment-d8gopo5.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Gomorra.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Gomorra.xml</externallink>
 </item>
 
 <item>
@@ -2992,7 +3092,7 @@
   <thumbnail>https://orig05.deviantart.net/556b/f/2016/239/e/f/macgyver_cbc__2016__by_drdarkdoom-dafgek6.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Mac2016.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Mac2016.xml</externallink>
 </item>
 
 <item>
@@ -3000,7 +3100,7 @@
   <thumbnail>https://orig12.deviantart.net/8b23/f/2016/035/1/0/american_crime_story_by_rest_in_torment-d9qhdbf.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/ACS.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/ACS.xml</externallink>
 </item>
 
 <item>
@@ -3008,7 +3108,7 @@
   <thumbnail>https://orig03.deviantart.net/99c4/f/2015/306/6/d/ash_vs_evil_dead_folder_icon_by_poxabia-d9fbjmq.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Ash.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Ash.xml</externallink>
 </item>
 
 <tem>
@@ -3016,7 +3116,7 @@
   <thumbnail>https://orig04.deviantart.net/893e/f/2016/278/5/b/conviction_tv_series_folder_icon_by_luciangarude-dajz1hc.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Conviction.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Conviction.xml</externallink>
 </item>
 
 <item>
@@ -3024,7 +3124,7 @@
   <thumbnail>https://orig09.deviantart.net/9519/f/2016/157/c/7/notorious___tv_series_folder_icon_v2_by_dyiddo-da57kmv.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Notorious.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Notorious.xml</externallink>
 </item>
 
 <item>
@@ -3032,7 +3132,7 @@
   <thumbnail>http://orig03.deviantart.net/d35a/f/2013/062/0/c/ncis__los_angeles_by_apollojr-d5wt4u0.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/NCISLA.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/NCISLA.xml</externallink>
 </item>
 
 <item>
@@ -3040,7 +3140,7 @@
   <thumbnail>http://orig07.deviantart.net/7f6d/f/2015/094/b/3/scrotal_recall__channel_4__2014__by_fer__ndo-d8of4oe.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Scrotall.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Scrotall.xml</externallink>
 </item>
 
 <item>
@@ -3049,7 +3149,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig12.deviantart.net/9454/f/2015/320/7/b/marvel_s_jessica_jones_by_halo296-d9gvqfe.png</thumbnail>
         <fanart>https://hdqwalls.com/wallpapers/jessica-jones-tv-cast-v6.jpg</fanart>
@@ -3085,7 +3185,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <item>
@@ -3094,7 +3194,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig10.deviantart.net/021b/f/2016/094/9/d/hunters_folder_icon_by_viro9-d9xnx2z.png</thumbnail>
         <fanart>http://es.web.img2.acsta.net/newsv7/16/07/11/15/07/360458.jpg</fanart>
@@ -3130,7 +3230,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <item>
@@ -3139,7 +3239,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig15.deviantart.net/827d/f/2016/162/6/f/american_gothic_folder_icon_by_viro9-da5w8me.png</thumbnail>
         <fanart>http://wallpapersdsc.net/wp-content/uploads/2016/09/American-Gothic-Computer-Wallpaper.jpg</fanart>
@@ -3177,7 +3277,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig11.deviantart.net/fd62/f/2014/343/e/b/supernatural___v7_by_rest_in_torment-d6od55u.png</thumbnail>
         <fanart>https://images5.alphacoders.com/638/thumb-1920-638567.jpg</fanart>
@@ -3214,7 +3314,7 @@
   <thumbnail>https://orig00.deviantart.net/0a57/f/2016/121/5/a/scream___tv_series_folder_icon_v3_by_dyiddo-da0vxpo.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Scream.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Scream.xml</externallink>
 </item>
 
 <item>
@@ -3222,7 +3322,7 @@
   <thumbnail>https://orig15.deviantart.net/2356/f/2014/003/2/d/falling_skies_by_rest_in_torment-d70pkzn.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/FS.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/FS.xml</externallink>
 </item>
 
 <item>
@@ -3230,7 +3330,53 @@
   <thumbnail>https://orig04.deviantart.net/b7ae/f/2016/197/9/f/the_flash__tv_series_folder_by_hey_rexjohn-daa9wys.png</thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/Flash.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Flash.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]El Mentalista[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/8174/f/2014/342/e/b/the_mentalist___tv_series_folder_icon_by_dyiddo-d896q58.png</thumbnail>
+        <fanart>https://wallpapercave.com/wp/2hdxwoS.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/el-mentalista-completa-castellanoel-rockero-28741/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/el-mentalista-completa-castellanoel-rockero-28741/list,1,7<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/8174/f/2014/342/e/b/the_mentalist___tv_series_folder_icon_by_dyiddo-d896q58.png</thumbnail>
+<fanart>https://wallpapercave.com/wp/2hdxwoS.jpg</fanart>
+</item>
+
+<item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Silicon Valley[/B][/COLOR]</title>
+  <thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/SV.xml</externallink>
 </item>
 
 <tem>
@@ -3238,7 +3384,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3246,7 +3392,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3254,7 +3400,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3262,7 +3408,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3270,7 +3416,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3278,7 +3424,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3286,7 +3432,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3294,7 +3440,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3302,7 +3448,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3310,7 +3456,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3318,7 +3464,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3326,7 +3472,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3334,7 +3480,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3342,7 +3488,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3350,7 +3496,7 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>
 
 <tem>
@@ -3358,13 +3504,5 @@
   <thumbnail></thumbnail>
 <fanart></fanart>
 <link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
-</item>
-
-<tem>
-      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B][/B][/COLOR]</title>
-  <thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/AngelRiordan/SummerTV/master/Series/.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/.xml</externallink>
 </item>

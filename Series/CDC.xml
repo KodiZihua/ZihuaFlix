@@ -5,7 +5,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[B][COLOR red][/COLOR][COLOR red]Summer[/COLOR][COLOR deepskyblue]TV[/COLOR][/B] [makelist.param3][/COLOR]</title>
+        <title>[B]ZihuaFlix[/B] [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://cdn0.nflximg.net/images/3880/21793880.jpg</thumbnail>
         <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/article/cover/2015/07/13/club-de-cuervos.jpg</fanart>
@@ -43,7 +43,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[B][COLOR red][/COLOR][COLOR red]Summer[/COLOR][COLOR deepskyblue]TV[/COLOR][/B] [makelist.param3][/COLOR]</title>
+        <title>[B]ZihuaFlix[/B] [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://cdn0.nflximg.net/images/3880/21793880.jpg</thumbnail>
         <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/article/cover/2015/07/13/club-de-cuervos.jpg</fanart>
@@ -81,7 +81,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[B][COLOR red][/COLOR][COLOR red]Summer[/COLOR][COLOR deepskyblue]TV[/COLOR][/B] [makelist.param3][/COLOR]</title>
+        <title>[B]ZihuaFlix[/B] [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://cdn0.nflximg.net/images/3880/21793880.jpg</thumbnail>
         <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/images/article/cover/2015/07/13/club-de-cuervos.jpg</fanart>

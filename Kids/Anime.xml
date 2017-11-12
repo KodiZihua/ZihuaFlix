@@ -1,3 +1,270 @@
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Black Rock Shooter[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://img00.deviantart.net/e564/i/2012/074/a/6/black_rock_shooter_by_codonkmt-d4st906.png</thumbnail>
+        <fanart>https://wallpaperscraft.com/image/black_rock_shooter_girl_brunette_water_moon_25521_1920x1080.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ElectronikGeek/black-rock-shooter-72243</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ElectronikGeek/black-rock-shooter-72243<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://img00.deviantart.net/e564/i/2012/074/a/6/black_rock_shooter_by_codonkmt-d4st906.png</thumbnail>
+<fanart>https://wallpaperscraft.com/image/black_rock_shooter_girl_brunette_water_moon_25521_1920x1080.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Absolute Duo[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/449a/f/2015/011/5/b/icon_folder___absolute_duo__1__by_alex_064-d8a08z7.png</thumbnail>
+        <fanart>https://images4.alphacoders.com/707/thumb-1920-707600.png</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ayachii/dsants-absolute-duo-1212720p-22350</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ayachii/dsants-absolute-duo-1212720p-22350<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/449a/f/2015/011/5/b/icon_folder___absolute_duo__1__by_alex_064-d8a08z7.png</thumbnail>
+<fanart>https://images4.alphacoders.com/707/thumb-1920-707600.png</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]D-Frag[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/fafa/f/2015/119/a/1/icon_folder___d_frag_by_alex_064-d8rj82p.png</thumbnail>
+        <fanart>https://images6.alphacoders.com/571/571260.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ayachii/n-d-frag-1212ova720p-22355</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ayachii/n-d-frag-1212ova720p-22355<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/fafa/f/2015/119/a/1/icon_folder___d_frag_by_alex_064-d8rj82p.png</thumbnail>
+<fanart>https://images6.alphacoders.com/571/571260.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Accel World[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/eb10/f/2016/271/7/8/accel_world_folder_icon_by_holiekay-daj68ov.png</thumbnail>
+        <fanart>https://images2.alphacoders.com/702/thumb-1920-702222.png</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ayachii/aozora-accel-world-24242-ovas720p-22377/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ayachii/aozora-accel-world-24242-ovas720p-22377/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/eb10/f/2016/271/7/8/accel_world_folder_icon_by_holiekay-daj68ov.png</thumbnail>
+<fanart>https://images2.alphacoders.com/702/thumb-1920-702222.png</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Air Gear[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/7044/f/2016/259/1/f/air_gear_folder_icon_by_holiekay-dahtfwr.png</thumbnail>
+        <fanart>http://hdwpp.net/a/1920x1080/g/161/s3/air-gear-theme-3.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ayachii/air-gear-2525-22382/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ayachii/air-gear-2525-22382/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/7044/f/2016/259/1/f/air_gear_folder_icon_by_holiekay-dahtfwr.png</thumbnail>
+<fanart>http://hdwpp.net/a/1920x1080/g/161/s3/air-gear-theme-3.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Akagami no Shirayukihime[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/92c8/f/2015/189/8/a/icon_folder___akagami_no_shirayukihime_by_alex_064-d90g3mw.png</thumbnail>
+        <fanart>https://images4.alphacoders.com/654/thumb-1920-654364.png</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ayachii/ynk-akagami-no-shirayuki-2424720p-22433</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ayachii/ynk-akagami-no-shirayuki-2424720p-22433<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/92c8/f/2015/189/8/a/icon_folder___akagami_no_shirayukihime_by_alex_064-d90g3mw.png</thumbnail>
+<fanart>https://images4.alphacoders.com/654/thumb-1920-654364.png</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Akatsuki no Yona[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/e8c4/f/2014/286/3/6/akatsuki_no_yona_by_parastu-d82p96v.png</thumbnail>
+        <fanart>https://static.zerochan.net/Akatsuki.no.Yona.full.1867780.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ayachii/uwf-akatsuki-no-yona-2424720p-22434/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ayachii/uwf-akatsuki-no-yona-2424720p-22434/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/e8c4/f/2014/286/3/6/akatsuki_no_yona_by_parastu-d82p96v.png</thumbnail>
+<fanart>https://static.zerochan.net/Akatsuki.no.Yona.full.1867780.jpg</fanart>
+</item>
+
 <item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Castlevania[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -6,7 +273,7 @@
   <listrepeat><![CDATA[
         <title>[COLOR red] Castlevania [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>http://orig01.deviantart.net/5b68/f/2014/195/4/9/colorflow_castlevania_lords_of_shadow_2_folder_by_peshinkovxor-d7qmhw6.png</thumbnail>
+    <thumbnail>https://orig00.deviantart.net/4963/f/2017/196/3/7/castlevania___tv_series_folder_icon_by_dyiddo-dbggcy2.png</thumbnail>
         <fanart>http://i.imgur.com/o12hYHv.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
@@ -32,9 +299,10 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://orig01.deviantart.net/5b68/f/2014/195/4/9/colorflow_castlevania_lords_of_shadow_2_folder_by_peshinkovxor-d7qmhw6.png</thumbnail>
+<thumbnail>https://orig00.deviantart.net/4963/f/2017/196/3/7/castlevania___tv_series_folder_icon_by_dyiddo-dbggcy2.png</thumbnail>
 <fanart>http://i.imgur.com/o12hYHv.jpg</fanart>
 </item>
+
 <item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Inuyasha[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -72,6 +340,7 @@
 <thumbnail>http://orig05.deviantart.net/ab41/f/2014/364/4/2/inuyasha_by_rest_in_torment-d8bwz2f.png</thumbnail>
 <fanart>https://images4.alphacoders.com/227/227924.jpg</fanart>
 </item>
+
 <item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Ranma y 1/2[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -146,6 +415,128 @@
 </regex>
 <thumbnail>http://orig03.deviantart.net/0e82/f/2015/102/1/2/yu_gi_oh_folder_icon_by_kirito_solo-d8ph3l7.png</thumbnail>
 <fanart>http://wallpapercave.com/wp/CGvgvNH.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Yu-Gi-Oh! GX[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/f4b7/f/2014/326/2/f/yu_gi_oh__gx_folder_icon_by_minacsky_saya-d87c1x8.png</thumbnail>
+        <fanart>https://static.zerochan.net/Yu-Gi-Oh%21.GX.full.454856.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/cbytek/gyogx-89181/list,1,8</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/cbytek/gyogx-89181/list,1,8<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/f4b7/f/2014/326/2/f/yu_gi_oh__gx_folder_icon_by_minacsky_saya-d87c1x8.png</thumbnail>
+<fanart>https://static.zerochan.net/Yu-Gi-Oh%21.GX.full.454856.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Yu-Gi-Oh! 5D'S[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/379b/f/2015/103/b/c/yu_gi_oh_5ds_folder_icon_by_kirito_solo-d8pjwpn.png</thumbnail>
+        <fanart>https://static.zerochan.net/Yu-Gi-Oh%21.5D%27s.full.454830.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/cbytek/gyo5ds-89366/list,1,7</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/cbytek/gyo5ds-89366/list,1,7<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/379b/f/2015/103/b/c/yu_gi_oh_5ds_folder_icon_by_kirito_solo-d8pjwpn.png</thumbnail>
+<fanart>https://static.zerochan.net/Yu-Gi-Oh%21.5D%27s.full.454830.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Yu-Gi-Oh! Arc-V[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/c34d/f/2014/315/9/b/yu_gi_oh_arc_v___icon_folder_by_ubagutobr-d864thd.png</thumbnail>
+        <fanart>https://vignette.wikia.nocookie.net/yugioh/images/3/3c/ArcV_050.png</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/cbytek/gyoarcv-90741/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/cbytek/gyoarcv-90741/list,1,5<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/c34d/f/2014/315/9/b/yu_gi_oh_arc_v___icon_folder_by_ubagutobr-d864thd.png</thumbnail>
+<fanart>https://vignette.wikia.nocookie.net/yugioh/images/3/3c/ArcV_050.png</fanart>
+</item>
+
+<item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Yu-Gi-Oh! Zexal[/B][/COLOR]</title>
+  <thumbnail>https://orig00.deviantart.net/090c/f/2015/103/a/2/yu_gi_oh_zexal_folder_icon_by_kirito_solo-d8pl1at.png</thumbnail>
+<fanart>http://www.hdwallpaper.nu/wp-content/uploads/2017/02/yugioh_zexal-2.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Zexal.xml</externallink>
 </item>
 
 <item>
@@ -312,7 +703,7 @@
         <fanart>http://cdn.wallpapersafari.com/72/90/huNcCL.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/VinXeluS/dragon-ball-super-74848/list,1,5</page>
+<page>http://diskokosmiko.mx/cbytek/d85-89022/list,1,5</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -330,7 +721,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/VinXeluS/dragon-ball-super-74848/list,1,5<referer>
+<referer>http://diskokosmiko.mx/cbytek/d85-89022/list,1,5<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -351,7 +742,7 @@
         <fanart>https://images8.alphacoders.com/695/695227.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime/neon-genesis-evangelion-espanol-latino-1173/list,1,2</page>
+<page>http://diskokosmiko.mx/TarifaDescarga/evangelion-74736/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -369,7 +760,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime/neon-genesis-evangelion-espanol-latino-1173/list,1,2<referer>
+<referer>http://diskokosmiko.mx/TarifaDescarga/evangelion-74736/list,1,2<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
@@ -1708,12 +2099,11 @@
 </item>
 
 <item>
-<item>
       <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Ah! My Goddess[/B][/COLOR]</title>
   <thumbnail>http://orig10.deviantart.net/2ee0/f/2016/012/5/7/ah_my_goddess_sorezore_no_tsubasa_folder_icon_by_mji13-d9nnx22.png</thumbnail>
 <fanart>https://images2.alphacoders.com/121/thumb-1920-121592.jpg</fanart>
 <link>http://ignoreme</link>
-   <externallink>http://summertv.julios.org/Kids/OMD.xml</externallink>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/OMD.xml</externallink>
 </item>
 
 <item>
@@ -2910,4 +3300,42 @@
 </regex>
 <thumbnail>http://orig05.deviantart.net/9795/f/2015/184/3/f/afro_samurai_by_rest_in_torment-d70pkhv.png</thumbnail>
 <fanart>https://i.pinimg.com/originals/8a/f6/ac/8af6ac0697c62052f93c6de6c64ab234.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B][/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail></thumbnail>
+        <fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page></page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer><referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>

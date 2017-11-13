@@ -1,0 +1,76 @@
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Serie[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/9a8d/f/2012/260/9/2/fly__dragon_quest__dock_icon__anime_folder_icon__by_tidus974-d5f0lhb.png</thumbnail>
+        <fanart>https://img00.deviantart.net/aa72/i/2008/049/c/5/las_aventuras_de_fly_by_rayoreloaded.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/trivianita/las-aventuras-de-fly-latinoel-rockero-72708/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/trivianita/las-aventuras-de-fly-latinoel-rockero-72708/list,1,3<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/9a8d/f/2012/260/9/2/fly__dragon_quest__dock_icon__anime_folder_icon__by_tidus974-d5f0lhb.png</thumbnail>
+<fanart>https://img00.deviantart.net/aa72/i/2008/049/c/5/las_aventuras_de_fly_by_rayoreloaded.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Ovas[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/9a8d/f/2012/260/9/2/fly__dragon_quest__dock_icon__anime_folder_icon__by_tidus974-d5f0lhb.png</thumbnail>
+        <fanart>https://img00.deviantart.net/aa72/i/2008/049/c/5/las_aventuras_de_fly_by_rayoreloaded.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/TarifaDescarga/ovas-las-aventuras-de-fly-73620</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/TarifaDescarga/ovas-las-aventuras-de-fly-73620<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/9a8d/f/2012/260/9/2/fly__dragon_quest__dock_icon__anime_folder_icon__by_tidus974-d5f0lhb.png</thumbnail>
+<fanart>https://img00.deviantart.net/aa72/i/2008/049/c/5/las_aventuras_de_fly_by_rayoreloaded.jpg</fanart>
+</item>

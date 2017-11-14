@@ -7,11 +7,11 @@
   <listrepeat><![CDATA[
         <title>[COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/0a57/f/2016/121/5/a/scream___tv_series_folder_icon_v3_by_dyiddo-da0vxpo.png</thumbnail>
-        <fanart>https://i.pinimg.com/originals/71/5c/47/715c47f57cf7c61c0ee9292775a2106e.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/d2f4/f/2016/229/a/0/rick_and_morty___folder_icon_by_brbaflo-daea2as.png</thumbnail>
+        <fanart>https://images4.alphacoders.com/606/606019.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/juancammaney/049-37395</page>
+<page>http://diskokosmiko.mx/cbytek/rymt1-91433</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -29,12 +29,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/juancammaney/049-37395<referer>
+<referer>http://diskokosmiko.mx/cbytek/rymt1-91433<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/0a57/f/2016/121/5/a/scream___tv_series_folder_icon_v3_by_dyiddo-da0vxpo.png</thumbnail>
-<fanart>https://i.pinimg.com/originals/71/5c/47/715c47f57cf7c61c0ee9292775a2106e.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/d2f4/f/2016/229/a/0/rick_and_morty___folder_icon_by_brbaflo-daea2as.png</thumbnail>
+<fanart>https://images4.alphacoders.com/606/606019.jpg</fanart>
 </item>
 
 <item>
@@ -45,11 +45,11 @@
   <listrepeat><![CDATA[
         <title>[COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/0a57/f/2016/121/5/a/scream___tv_series_folder_icon_v3_by_dyiddo-da0vxpo.png</thumbnail>
-        <fanart>https://i.pinimg.com/originals/71/5c/47/715c47f57cf7c61c0ee9292775a2106e.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/d2f4/f/2016/229/a/0/rick_and_morty___folder_icon_by_brbaflo-daea2as.png</thumbnail>
+        <fanart>https://images4.alphacoders.com/606/606019.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/juancammaney/050-37396</page>
+<page>http://diskokosmiko.mx/cbytek/rymt2-91443</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -67,10 +67,10 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/juancammaney/050-37396<referer>
+<referer>http://diskokosmiko.mx/cbytek/rymt2-91443<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/0a57/f/2016/121/5/a/scream___tv_series_folder_icon_v3_by_dyiddo-da0vxpo.png</thumbnail>
-<fanart>https://i.pinimg.com/originals/71/5c/47/715c47f57cf7c61c0ee9292775a2106e.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/d2f4/f/2016/229/a/0/rick_and_morty___folder_icon_by_brbaflo-daea2as.png</thumbnail>
+<fanart>https://images4.alphacoders.com/606/606019.jpg</fanart>
 </item>

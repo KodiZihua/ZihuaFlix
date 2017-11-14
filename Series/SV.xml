@@ -1,16 +1,17 @@
+
 <item>
 <title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 1[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red] Teen Wolf [makelist.param3][/COLOR]</title>
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>http://orig15.deviantart.net/6154/f/2014/002/9/3/teen_wolf_by_rest_in_torment-d70j2qf.png</thumbnail>
-        <fanart>http://wallpapercave.com/wp/wp1810560.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/c27a/f/2014/326/7/d/silicon_valley_folder_icon_by_andreas86-d878skb.png</thumbnail>
+        <fanart>http://www.top4themes.com/data/out/127/6479609-silicon-valley-wallpapers.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/seri5/teen-wolf1-28599</page>
+<page>http://diskokosmiko.mx/chicho306/silicon-valley-t1-38458</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -28,12 +29,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/seri5/teen-wolf1-28599<referer>
+<referer>http://diskokosmiko.mx/chicho306/silicon-valley-t1-38458<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://orig15.deviantart.net/6154/f/2014/002/9/3/teen_wolf_by_rest_in_torment-d70j2qf.png</thumbnail>
-<fanart>http://wallpapercave.com/wp/wp1810560.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/c27a/f/2014/326/7/d/silicon_valley_folder_icon_by_andreas86-d878skb.png</thumbnail>
+<fanart>http://www.top4themes.com/data/out/127/6479609-silicon-valley-wallpapers.jpg</fanart>
 </item>
 
 <item>
@@ -42,13 +43,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red] Teen Wolf [makelist.param3][/COLOR]</title>
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>http://orig15.deviantart.net/6154/f/2014/002/9/3/teen_wolf_by_rest_in_torment-d70j2qf.png</thumbnail>
-        <fanart>http://wallpapercave.com/wp/wp1810560.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/c27a/f/2014/326/7/d/silicon_valley_folder_icon_by_andreas86-d878skb.png</thumbnail>
+        <fanart>http://www.top4themes.com/data/out/127/6479609-silicon-valley-wallpapers.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/seri5/teen-wolf2-28600</page>
+<page>http://diskokosmiko.mx/chicho306/silicon-valley-t2-38503</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -66,12 +67,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/seri5/teen-wolf2-28600<referer>
+<referer>http://diskokosmiko.mx/chicho306/silicon-valley-t2-38503<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://orig15.deviantart.net/6154/f/2014/002/9/3/teen_wolf_by_rest_in_torment-d70j2qf.png</thumbnail>
-<fanart>http://wallpapercave.com/wp/wp1810560.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/c27a/f/2014/326/7/d/silicon_valley_folder_icon_by_andreas86-d878skb.png</thumbnail>
+<fanart>http://www.top4themes.com/data/out/127/6479609-silicon-valley-wallpapers.jpg</fanart>
 </item>
 
 <item>
@@ -80,13 +81,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red] Teen Wolf [makelist.param3][/COLOR]</title>
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>http://orig15.deviantart.net/6154/f/2014/002/9/3/teen_wolf_by_rest_in_torment-d70j2qf.png</thumbnail>
-        <fanart>http://wallpapercave.com/wp/wp1810560.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/c27a/f/2014/326/7/d/silicon_valley_folder_icon_by_andreas86-d878skb.png</thumbnail>
+        <fanart>http://www.top4themes.com/data/out/127/6479609-silicon-valley-wallpapers.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/seri5/teen-wolf3-28601/list,1,2</page>
+<page>http://diskokosmiko.mx/chicho306/silicon-valley-t3-38504</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -104,10 +105,10 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/seri5/teen-wolf3-28601/list,1,2<referer>
+<referer>http://diskokosmiko.mx/chicho306/silicon-valley-t3-38504<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>http://orig15.deviantart.net/6154/f/2014/002/9/3/teen_wolf_by_rest_in_torment-d70j2qf.png</thumbnail>
-<fanart>http://wallpapercave.com/wp/wp1810560.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/c27a/f/2014/326/7/d/silicon_valley_folder_icon_by_andreas86-d878skb.png</thumbnail>
+<fanart>http://www.top4themes.com/data/out/127/6479609-silicon-valley-wallpapers.jpg</fanart>
 </item>

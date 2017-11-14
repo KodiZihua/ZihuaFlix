@@ -1,11 +1,65 @@
 
 <item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Juuni Taisen (En Emision)[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig00.deviantart.net/556b/f/2017/269/1/4/juuni_taisen___icon_folder_by_kazutto-dbomw91.png</thumbnail>
+        <fanart>https://img00.deviantart.net/8592/i/2017/277/5/7/usagi___juuni_taisen_wallpaper_by_th30ch40s-dbpjdis.png</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/ReReChokko/juuni-taisen-sub-espanol-86600</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/ReReChokko/juuni-taisen-sub-espanol-86600<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig00.deviantart.net/556b/f/2017/269/1/4/juuni_taisen___icon_folder_by_kazutto-dbomw91.png</thumbnail>
+<fanart>https://img00.deviantart.net/8592/i/2017/277/5/7/usagi___juuni_taisen_wallpaper_by_th30ch40s-dbpjdis.png</fanart>
+</item>
+
+<item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Las aventuras de Fly[/B][/COLOR]</title>
+  <thumbnail>https://orig00.deviantart.net/9a8d/f/2012/260/9/2/fly__dragon_quest__dock_icon__anime_folder_icon__by_tidus974-d5f0lhb.png</thumbnail>
+<fanart>https://img00.deviantart.net/aa72/i/2008/049/c/5/las_aventuras_de_fly_by_rayoreloaded.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Fly.xml</externallink>
+</item>
+ 
+<item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Yu yu Hakusho[/B][/COLOR]</title>
+  <thumbnail>https://orig00.deviantart.net/2add/f/2017/060/6/a/yu_yu_hakusho_icon_folder_by_thiagolxxx-db0tiuy.png</thumbnail>
+<fanart>https://i.ytimg.com/vi/-u3fpSCT7VI/maxresdefault.jpg</fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/YuYu.xml</externallink>
+</item>
+
+<item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Black Rock Shooter[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://img00.deviantart.net/e564/i/2012/074/a/6/black_rock_shooter_by_codonkmt-d4st906.png</thumbnail>
         <fanart>https://wallpaperscraft.com/image/black_rock_shooter_girl_brunette_water_moon_25521_1920x1080.jpg</fanart>
@@ -43,7 +97,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/449a/f/2015/011/5/b/icon_folder___absolute_duo__1__by_alex_064-d8a08z7.png</thumbnail>
         <fanart>https://images4.alphacoders.com/707/thumb-1920-707600.png</fanart>
@@ -81,7 +135,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/fafa/f/2015/119/a/1/icon_folder___d_frag_by_alex_064-d8rj82p.png</thumbnail>
         <fanart>https://images6.alphacoders.com/571/571260.jpg</fanart>
@@ -119,7 +173,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/eb10/f/2016/271/7/8/accel_world_folder_icon_by_holiekay-daj68ov.png</thumbnail>
         <fanart>https://images2.alphacoders.com/702/thumb-1920-702222.png</fanart>
@@ -157,7 +211,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/7044/f/2016/259/1/f/air_gear_folder_icon_by_holiekay-dahtfwr.png</thumbnail>
         <fanart>http://hdwpp.net/a/1920x1080/g/161/s3/air-gear-theme-3.jpg</fanart>
@@ -195,7 +249,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/92c8/f/2015/189/8/a/icon_folder___akagami_no_shirayukihime_by_alex_064-d90g3mw.png</thumbnail>
         <fanart>https://images4.alphacoders.com/654/thumb-1920-654364.png</fanart>
@@ -233,7 +287,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/e8c4/f/2014/286/3/6/akatsuki_no_yona_by_parastu-d82p96v.png</thumbnail>
         <fanart>https://static.zerochan.net/Akatsuki.no.Yona.full.1867780.jpg</fanart>
@@ -309,7 +363,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig05.deviantart.net/ab41/f/2014/364/4/2/inuyasha_by_rest_in_torment-d8bwz2f.png</thumbnail>
         <fanart>https://images4.alphacoders.com/227/227924.jpg</fanart>
@@ -347,7 +401,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig00.deviantart.net/4f6b/f/2015/093/3/7/ranma_1_2_folder_icon_by_minacsky_saya-d8obsx6.png</thumbnail>
         <fanart>http://www.imgbase.info/images/safe-wallpapers/anime/ranma/59892_ranma.jpg</fanart>
@@ -423,7 +477,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/f4b7/f/2014/326/2/f/yu_gi_oh__gx_folder_icon_by_minacsky_saya-d87c1x8.png</thumbnail>
         <fanart>https://static.zerochan.net/Yu-Gi-Oh%21.GX.full.454856.jpg</fanart>
@@ -461,7 +515,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/379b/f/2015/103/b/c/yu_gi_oh_5ds_folder_icon_by_kirito_solo-d8pjwpn.png</thumbnail>
         <fanart>https://static.zerochan.net/Yu-Gi-Oh%21.5D%27s.full.454830.jpg</fanart>
@@ -499,7 +553,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/c34d/f/2014/315/9/b/yu_gi_oh_arc_v___icon_folder_by_ubagutobr-d864thd.png</thumbnail>
         <fanart>https://vignette.wikia.nocookie.net/yugioh/images/3/3c/ArcV_050.png</fanart>
@@ -583,7 +637,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig13.deviantart.net/181f/f/2014/210/1/a/dragon_ball___icon_folder_by_ubagutobr-d7sthes.png</thumbnail>
         <fanart>http://cdn.wallpapersafari.com/70/56/hQ4VgI.jpg</fanart>
@@ -697,7 +751,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig12.deviantart.net/e78d/f/2015/198/8/e/dragon_ball_super_folder_icon_by_uchihadjpasindu-d91nnyp.png</thumbnail>
         <fanart>http://cdn.wallpapersafari.com/72/90/huNcCL.jpg</fanart>
@@ -888,7 +942,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig08.deviantart.net/c778/f/2014/335/2/f/icon_folder___death_note_by_alex_064-d88bp4u.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/t0OCX4U.jpg</fanart>
@@ -926,7 +980,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig04.deviantart.net/fd79/f/2014/263/8/0/onegai_teacher___icon_folder_by_ubagutobr-d7ztso1.png</thumbnail>
         <fanart>http://shinforce.com/cool/wallpaper/pleaseteacher/Please_Teacher-a-1920x1200.jpg</fanart>
@@ -964,7 +1018,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig10.deviantart.net/578e/f/2014/263/6/9/onegai_twins___icon_folder_by_ubagutobr-d7ztso5.png</thumbnail>
         <fanart>https://wallpaperscraft.com/image/onegai_twins_onodera_karen_miyafuji_miina_boy_girl_gesture_34719_1920x1080.jpg</fanart>
@@ -1002,7 +1056,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig15.deviantart.net/9064/f/2013/118/9/5/golden_boy_folder_icon_by_k__fly-d63c8op.png</thumbnail>
         <fanart>http://static.zerochan.net/Golden.Boy.full.501772.jpg</fanart>
@@ -1040,7 +1094,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig11.deviantart.net/31a9/f/2016/263/9/b/basilisk_icon_folder_by_thiagolxxx-daib64d.png</thumbnail>
         <fanart>https://images7.alphacoders.com/315/thumb-1920-315669.jpg</fanart>
@@ -1078,7 +1132,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig01.deviantart.net/3226/f/2014/214/9/6/chobits_by_ubagutobr-d7tcbbx.png</thumbnail>
         <fanart>https://images2.alphacoders.com/246/246760.jpg</fanart>
@@ -1116,7 +1170,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig00.deviantart.net/d6d5/f/2015/199/e/c/angel_beats____icon_folder_by_wardphoenix-d91s7no.png</thumbnail>
         <fanart>https://images5.alphacoders.com/771/771269.jpg</fanart>
@@ -1154,7 +1208,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig07.deviantart.net/0c18/f/2016/314/7/8/trinity_blood_icon_folder_v2_by_thiagolxxx-danxcny.png</thumbnail>
         <fanart>https://images3.alphacoders.com/209/thumb-1920-209647.jpg</fanart>
@@ -1192,7 +1246,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig15.deviantart.net/9216/f/2015/093/f/1/nhk_ni_youkoso__folder_icon_by_minacsky_saya-d8o7ff0.png</thumbnail>
         <fanart>http://www.imgbase.info/images/safe-wallpapers/anime/welcome_to_the_nhk/11595_welcome_to_the_nhk.jpg</fanart>
@@ -1230,7 +1284,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig05.deviantart.net/8c04/f/2014/040/7/8/deadman_wonderland_by_matheusgrilo-d75qvcc.png</thumbnail>
         <fanart>http://cdn.wallpapersafari.com/75/53/xOadDo.jpg</fanart>
@@ -1268,7 +1322,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig10.deviantart.net/4464/f/2016/003/f/c/trigun_icon_folder_by_mohandor-d9mlijc.png</thumbnail>
         <fanart>https://images3.alphacoders.com/227/thumb-1920-227019.jpg</fanart>
@@ -1306,7 +1360,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig06.deviantart.net/e74d/f/2016/001/a/6/claymore_icon_folder_by_mohandor-d9me8b6.png</thumbnail>
         <fanart>https://images4.alphacoders.com/104/thumb-1920-104776.jpg</fanart>
@@ -1344,7 +1398,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig10.deviantart.net/737e/f/2016/001/c/6/berserk_icon_folder_by_mohandor-d9me7me.png</thumbnail>
         <fanart>https://images5.alphacoders.com/764/thumb-1920-764519.jpg</fanart>
@@ -1382,7 +1436,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig13.deviantart.net/0178/f/2013/347/7/e/cowbow_bebop_by_rest_in_torment-d6g955m.png</thumbnail>
         <fanart>https://s-media-cache-ak0.pinimg.com/originals/6a/62/3b/6a623b665f363970b6a28b18466a9e6d.jpg</fanart>
@@ -1420,7 +1474,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig15.deviantart.net/744d/f/2014/039/7/e/saint_seiya_by_matheusgrilo-d75om2q.png</thumbnail>
         <fanart>https://images4.alphacoders.com/670/thumb-1920-670864.png</fanart>
@@ -1458,7 +1512,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig11.deviantart.net/8950/f/2015/133/1/0/saint_seiya_hades_by_infinitydreck-d8t92r7.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/Pwa4Da3.jpg</fanart>
@@ -1496,7 +1550,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig12.deviantart.net/b2e4/f/2015/133/c/d/saint_seiya_lost_canvas_by_daitenshi01-d8t8ys4.png</thumbnail>
         <fanart>https://s-media-cache-ak0.pinimg.com/originals/86/3b/7c/863b7c462f2efc852369b001883bd5ba.jpg</fanart>
@@ -1534,7 +1588,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig10.deviantart.net/8030/f/2016/002/b/2/saint_seiya_omega_icon_folder_by_borutouzumaki20-d9m3qx0.png</thumbnail>
         <fanart>http://multianime.com.mx/wp-content/uploads/2012/10/Saint_Seiya_Omega_full_1241962.jpg</fanart>
@@ -1572,7 +1626,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/4ec3/f/2015/271/4/f/saint_seiya_soul_of_gold_by_dante9466-d9b7ptv.png</thumbnail>
         <fanart>https://elcoliseodelahistoria.files.wordpress.com/2015/05/sog2wall_byalde_1920.jpg</fanart>
@@ -1610,7 +1664,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig11.deviantart.net/865b/f/2015/002/3/8/amnesia_folder_icon_by_minacsky_saya-d7katv5.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/HQQP79K.jpg</fanart>
@@ -1648,7 +1702,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig05.deviantart.net/1917/f/2014/031/0/9/shingeki_no_kyojin_folder_icon_by_dani5s4-d74k1vb.png</thumbnail>
         <fanart>https://images7.alphacoders.com/418/thumb-1920-418724.jpg</fanart>
@@ -1686,7 +1740,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig06.deviantart.net/4387/f/2013/160/e/1/shingeki_no_kyojin_folder_icon_png_by_kuroabisu-d68f561.png</thumbnail>
         <fanart>https://images7.alphacoders.com/607/thumb-1920-607718.png</fanart>
@@ -1724,7 +1778,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig07.deviantart.net/e8b1/f/2016/187/1/a/shingeki_no_kyojin_season_2_folder_icon_by_tatas18-da90ej0.png</thumbnail>
         <fanart>https://images8.alphacoders.com/607/thumb-1920-607726.jpg</fanart>
@@ -1762,7 +1816,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig11.deviantart.net/1699/f/2014/263/c/1/sword_art_online___icon_folder_by_ubagutobr-d7zw9x7.png</thumbnail>
         <fanart>http://www.imgbase.info/images/safe-wallpapers/anime/sword_art_online/35980-sword_art_online_v1_2_wallpaper.jpg</fanart>
@@ -1800,7 +1854,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig00.deviantart.net/158c/f/2014/292/6/f/shigatsu_wa_kimi_no_uso_folder_icon_by_parastu-d83dopc.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/wp1856247.png</fanart>
@@ -1838,7 +1892,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig02.deviantart.net/1d86/f/2014/210/f/c/brothers_conflict_icon_by_mikorin_chan-d7stara.png</thumbnail>
         <fanart>http://static.zerochan.net/BROTHERS.CONFLICT.full.1121982.jpg</fanart>
@@ -1876,7 +1930,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig06.deviantart.net/ee80/f/2015/012/d/a/icon_folder___death_parade__1__by_alex_064-d8a1y8q.png</thumbnail>
         <fanart>https://images6.alphacoders.com/676/thumb-1920-676633.png</fanart>
@@ -1914,7 +1968,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig04.deviantart.net/6004/f/2014/207/1/2/kaichou_wa_maid_sama____icon_folder_by_ubagutobr-d7sencw.png</thumbnail>
         <fanart>http://img12.deviantart.net/011c/i/2013/338/2/8/kaichou_wa_maid_sama_wallpaper_by_thomarie1923-d6wruym.jpg</fanart>
@@ -1952,7 +2006,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig02.deviantart.net/4c6a/f/2012/205/9/0/tv_icon_folder_by_mellicoonn-d58h140.png</thumbnail>
         <fanart>https://s-media-cache-ak0.pinimg.com/originals/63/9a/e1/639ae14c74c52830d85ffaec05bbf06e.jpg</fanart>
@@ -1990,7 +2044,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig02.deviantart.net/8bc8/f/2017/023/3/7/hellsing_ultimate___folder_icon_by_kaz_kirigiri-dawhvmb.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/96rhBBD.jpg</fanart>
@@ -2028,7 +2082,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig13.deviantart.net/32e2/f/2014/336/a/1/magic_knight_rayearth_folder_icon_by_minacsky_saya-d88i2qf.png</thumbnail>
         <fanart>https://cde.peru.com/ima/0/0/9/4/8/948108/924x530/anime.jpg</fanart>
@@ -2066,7 +2120,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://img07.deviantart.net/3690/i/2015/186/3/9/slam_dunk_icon_by_ksan23-d8zwt51.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/5KxAwmj.jpg</fanart>
@@ -2112,7 +2166,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig13.deviantart.net/2985/f/2014/263/a/4/samurai_x__rurouni_kenshin____icon_folder_by_ubagutobr-d7zw9tl.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/Y1xnQmv.jpg</fanart>
@@ -2196,7 +2250,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/4f28/f/2017/006/e/5/hyakka_ryouran_samurai_folder_icon_2_by_gilang__hikari-dauij3z.png</thumbnail>
         <fanart>https://cdn.wallpapersafari.com/89/1/jZoy67.jpg</fanart>
@@ -2234,7 +2288,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/e5c6/f/2017/006/a/6/hyakka_ryouran_by_gilang__hikari-dauikqm.png</thumbnail>
         <fanart>http://multianime.com.mx/wp-content/uploads/2012/12/Hyakka_Ryouran_Samurai_Girls_Wallpaper_1920x1200_wallpaperhere.jpg</fanart>
@@ -2280,7 +2334,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/a934/f/2015/030/5/d/fullmetal_alchemist__brotherhood_folder_icon_by_minacsky_saya-d8fyc1x.png</thumbnail>
         <fanart>https://i.pinimg.com/originals/fa/07/ee/fa07ee7d3d58cce5ed5cef02a1373acb.jpg</fanart>
@@ -2318,7 +2372,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/b431/f/2015/280/3/2/fairy_tail_folder_icon__png__by_j4lu7-d9c8m36.png</thumbnail>
         <fanart>https://images6.alphacoders.com/311/thumb-1920-311015.jpg</fanart>
@@ -2364,7 +2418,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/fc83/f/2014/202/6/f/black_lagoon___icon_folder_by_ubagutobr-d7rq6ut.png</thumbnail>
         <fanart>http://jonvilma.com/images/black-lagoon-4.jpg</fanart>
@@ -2402,7 +2456,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/6db0/f/2015/030/8/8/gyakkyou_burai_kaiji_ultimate_survivor_folder_icon_by_minacsky_saya-d8fybls.png</thumbnail>
         <fanart>https://i.ytimg.com/vi/ozEwqJB3WtU/maxresdefault.jpg</fanart>
@@ -2440,7 +2494,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/14e4/f/2014/196/8/5/baka_to_test_to_shoukanjuu_nii___icon_folder_by_ubagutobr-d7qtjyx.png</thumbnail>
         <fanart>https://images7.alphacoders.com/530/thumb-1920-530765.png</fanart>
@@ -2486,7 +2540,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/f595/f/2015/001/9/0/icon_folder___mushishi__1__by_alex_064-d8c4kpz.png</thumbnail>
         <fanart>https://images8.alphacoders.com/685/thumb-1920-685929.png</fanart>
@@ -2532,7 +2586,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/b056/f/2015/031/f/5/ano_hana_folder_icon_by_minacsky_saya-d8g2xmd.png</thumbnail>
         <fanart>http://www.hdwallpaper.nu/wp-content/uploads/2017/02/anohana-4.jpg</fanart>
@@ -2570,7 +2624,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/f01f/f/2014/003/0/f/ghost_in_the_shell_stand_alone_complex_colorflow_by_turtle85-d70o7gt.png</thumbnail>
         <fanart>http://img.affenheimtheater.de/screen_gits_sac1_bd_jp_001.png</fanart>
@@ -2608,7 +2662,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/83c4/f/2015/047/e/d/ghost_in_the_shell___2nd_gig_folder_icon_by_minacsky_saya-d8i8h2x.png</thumbnail>
         <fanart>http://www.ipicstorage.com/images/ghost-in-the-shell/ghost-in-the-shell-stand-along-complex-batou-kusanagi-wallpaper.jpg</fanart>
@@ -2662,7 +2716,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/7cbf/f/2015/031/1/8/toshokan_sensou_library_war_anime_folder_icon_png_by_iamkokoro-d8g5hz5.png</thumbnail>
         <fanart>https://losanimesdemagrat.files.wordpress.com/2012/02/498394.jpg</fanart>
@@ -2700,7 +2754,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://i.pinimg.com/originals/76/c8/70/76c8704cdb771a1335cd9c51fcb2d3a6.jpg</thumbnail>
         <fanart>http://static.wixstatic.com/media/6a3224_5fe1580e3ddd4c0ca14e30c39ca77190.jpg</fanart>
@@ -2738,7 +2792,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/df1e/f/2016/034/5/6/ninja_scroll_by_wilmer29-d9qe0a0.png</thumbnail>
         <fanart>https://wallpapercave.com/wp/drYapa7.jpg</fanart>
@@ -2776,7 +2830,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/6c3b/f/2015/128/f/9/gantz___icon_folder_by_ubagutobr-d8sn6et.png</thumbnail>
         <fanart>http://www.xsjjys.com/data/out/186/WHDQ-513238654.jpg</fanart>
@@ -2814,7 +2868,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://imgsdown.1mobile.com/group2/M00/53/45/S36rZFQVIPyAPNNRAAbgHvn1GHE375.png</thumbnail>
         <fanart>http://3.bp.blogspot.com/-QvFOSgUtwo4/TnFV4zPkY5I/AAAAAAAAAE4/t1OTdkoOdEc/s1600/Superonce68.jpg</fanart>
@@ -2852,7 +2906,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/0a2d/f/2014/206/3/d/hajime_no_ippo_new_challenger___icon_folder_by_ubagutobr-d7s8ys4.png</thumbnail>
         <fanart>https://orig00.deviantart.net/21a9/f/2015/008/4/6/hajime_no_ippo_wallpaper_by_drstuff-d8d5ym4.png</fanart>
@@ -2890,7 +2944,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/3312/f/2014/196/b/4/diamond_no_ace___icon_folder_by_ubagutobr-d7qtza2.png</thumbnail>
         <fanart>https://static.zerochan.net/Diamond.no.Ace.full.1971952.jpg</fanart>
@@ -2928,7 +2982,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/f124/f/2016/069/5/9/icon_folder___katekyo_hitman_reborn_by_khiciy-d9e3rhz.png</thumbnail>
         <fanart>https://static.zerochan.net/Katekyo.Hitman.REBORN%21.full.1146386.jpg</fanart>
@@ -2966,7 +3020,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/c7d6/f/2015/103/3/4/nanatsu_no_taizai___seven_deadly_sins_folder_icon_by_kirito_solo-d8pler5.png</thumbnail>
         <fanart>https://images2.alphacoders.com/715/thumb-1920-715482.jpg</fanart>
@@ -3004,7 +3058,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig08.deviantart.net/a2ab/f/2015/263/3/5/gakusen_toshi_asterisk___folder__icon____v2____by__by_henohara-d9a8phq.png</thumbnail>
         <fanart>https://images4.alphacoders.com/704/704366.png</fanart>
@@ -3042,7 +3096,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/6baf/f/2015/195/6/2/terra_formars_icon_folder_by_striknin-d91a3jr.png</thumbnail>
         <fanart>https://www.anime-papers.com/image/1574-72638-2</fanart>
@@ -3080,7 +3134,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/2f89/f/2014/263/c/b/ookami_to_koushinryou_spice_and_wolf___icon_folder_by_ubagutobr-d7ztsop.png</thumbnail>
         <fanart>https://i.pinimg.com/originals/4e/3f/06/4e3f066c2288b1891bc36344c3801b08.jpg</fanart>
@@ -3118,7 +3172,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://img00.deviantart.net/6265/i/2012/085/1/3/full_metal_panic_by_codonkmt-d4tynbs.png</thumbnail>
         <fanart>https://images3.alphacoders.com/104/104235.jpg</fanart>
@@ -3156,7 +3210,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/733c/f/2016/247/f/4/kampfer_folder_icon_by_holiekay-dagf7jj.png</thumbnail>
         <fanart>https://images5.alphacoders.com/392/392572.jpg</fanart>
@@ -3194,7 +3248,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/eca3/f/2014/333/2/7/icon_folder_anime___grenadier_by_alex_064-d884pcf.png</thumbnail>
         <fanart>http://wallpaperslot.com/data/media/2/Grenadier.jpg</fanart>
@@ -3232,7 +3286,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://orig00.deviantart.net/a6c5/f/2016/039/4/9/campione_folder_icon_by_dr_iss-d9qytco.png</thumbnail>
         <fanart>https://images8.alphacoders.com/756/thumb-1920-756637.jpg</fanart>
@@ -3270,7 +3324,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig05.deviantart.net/9795/f/2015/184/3/f/afro_samurai_by_rest_in_torment-d70pkhv.png</thumbnail>
         <fanart>https://i.pinimg.com/originals/8a/f6/ac/8af6ac0697c62052f93c6de6c64ab234.jpg</fanart>
@@ -3308,7 +3362,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail></thumbnail>
         <fanart></fanart>

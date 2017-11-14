@@ -8,6 +8,14 @@
 </item>
  
 <item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Grey's Anatomy[/B][/COLOR]</title>
+  <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Grey.xml</externallink>
+</item>
+
+<item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]The Shannnara Chronicles[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -415,7 +423,7 @@
         <fanart>http://www.tvwatchus.com/wp-content/uploads/2017/03/328724-2.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/x3kiN/youngsheldon-85695</page>
+<page>http://diskokosmiko.mx/eguzmanmtz/young-sheldon-sub-92687</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -433,7 +441,7 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/x3kiN/youngsheldon-85695<referer>
+<referer>http://diskokosmiko.mx/eguzmanmtz/young-sheldon-sub-92687<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>

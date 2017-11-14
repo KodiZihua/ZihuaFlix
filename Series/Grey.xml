@@ -5,13 +5,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t1-24993</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-temporada-1-47378</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -29,12 +29,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t1-24993<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-temporada-1-47378<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -43,13 +43,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t2-24994</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-2-temporada-47381</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -67,12 +67,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t2-24994<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-2-temporada-47381<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -81,13 +81,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t3-24995</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-3-temporada-47382</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -105,12 +105,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t3-24995<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-3-temporada-47382<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -119,13 +119,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t4-24996/list,1,2</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-4-temporada-47388</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -143,12 +143,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t4-24996/list,1,2<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-4-temporada-47388<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -157,13 +157,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t5-24997</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-5-temporada-47390/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -181,12 +181,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t5-24997<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-5-temporada-47390/list,1,2<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -195,13 +195,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t6-24998</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-6-temporada-47480/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -219,12 +219,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t6-24998<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-6-temporada-47480/list,1,2<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -233,13 +233,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t7-24999</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-7-temporada-47481</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -257,12 +257,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t7-24999<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-7-temporada-47481<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -271,13 +271,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t8-25000</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-8-temporada-47490/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -295,12 +295,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t8-25000<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-8-temporada-47490/list,1,2<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -309,13 +309,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t9-25001</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-9-temporada-47491/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -333,12 +333,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t9-25001<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-9-temporada-47491/list,1,2<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -347,13 +347,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t10-25003</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-10-temporada-47495/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -371,12 +371,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t10-25003<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-10-temporada-47495/list,1,2<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -385,13 +385,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t11-25006</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-11-temporada-47496/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -409,12 +409,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t11-25006<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-11-temporada-47496/list,1,2<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -423,13 +423,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t12-25007</page>
+<page>http://diskokosmiko.mx/carmenJerezano/antomia-de-grey-12-temporada-47497</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -447,12 +447,12 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t12-25007<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/antomia-de-grey-12-temporada-47497<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>
 
 <item>
@@ -461,13 +461,13 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+    <thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+        <fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t13-25010/list,1,2</page>
+<page>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-13-temporada-subiendo-47498</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -485,124 +485,10 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t13-25010/list,1,2<referer>
+<referer>http://diskokosmiko.mx/carmenJerezano/anatomia-de-grey-13-temporada-subiendo-47498<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 14[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t14-25013</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t14-25013<referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 15[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t15-25014</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t15-25014<referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 16[/B][/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-  <name>makelist</name>
-  <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
-        <link>$doregex[getUrl]</link>
-    <thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-        <fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
-        ]]></listrepeat>
-<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page>http://diskokosmiko.mx/anime1/bleach-t16-25015</page>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres>DownloadUrl":"([^"]+)<expres>
-<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
-<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
-<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
-<connection>keep-alive</connection>
-<accept>*/*</accept>
-<X-Req>XMLHttpRequest</X-Req>
-<cookieJar></cookieJar>
-</regex>
-<regex>
-<name>tok</name>
-<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
-<page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer>http://diskokosmiko.mx/anime1/bleach-t16-25015<referer>
-<connection>keep-alive</connection>
-<cookieJar></cookieJar>
-</regex>
-<thumbnail>https://orig00.deviantart.net/19f0/f/2015/035/1/6/bleach___icon_folder_by_ubagutobr-d8gotjg.png</thumbnail>
-<fanart>https://images3.alphacoders.com/249/thumb-1920-2499.jpg</fanart>
+<thumbnail>https://orig00.deviantart.net/fdad/f/2015/265/d/4/grey_s_anatomy_folder_icon_by_poxabia-d9ajr4t.png</thumbnail>
+<fanart>https://images7.alphacoders.com/675/thumb-1920-675586.jpg</fanart>
 </item>

@@ -1,0 +1,89 @@
+
+<item>
+<title>[COLOR blue]La Magia de los Parchis[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>https://pics.filmaffinity.com/la_magia_de_los_parchis-691853187-large.jpg</thumbnail>
+<urlsolve>http://diskokosmiko.mx/SeriesHD/pelis-2-45486/la-magia-de-los-parchis,618139.mkv</urlsolve>
+</item>
+
+<item>
+<title>[COLOR blue]Sufre Mamon[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>https://lamula.pe/media/uploads/8e7cb3e57ba6446db6bd3023983c64f0.jpg</thumbnail>
+<urlsolve>http://diskokosmiko.mx/koseialex/peliculas-55371/hombres-g-sufre-mamon,1484951,list,1,1.mpg</urlsolve>
+</item>
+
+<item>
+<thumbnail>https://image.tmdb.org/t/p/original/$doregex[imagen]</thumbnail>
+<fanart>https://image.tmdb.org/t/p/original/$doregex[imagen]</fanart>
+<link>$doregex[id3]</link>
+<regex>
+<name>id3</name>
+<expres><![CDATA[#$pyFunction
+def GetLSProData(page_data,Cookie_Jar,m):
+   import urlresolver
+   url = 'https://streamango.com/f/fdqfepbdbcmtmftt/just1c3_l34gu3_d4rk_2017_tshq_latino_AQUIPELIS_NET_mp4'
+   try:
+       u = urlresolver.resolve(url)
+   except:
+       u = ''
+   return u
+]]></expres>
+<page></page>
+</regex>
+<regex><name>imagen</name><expres><![CDATA[poster_path\":\"\\/(.*?)\"]]></expres>
+<page>https://api.themoviedb.org/3/search/movie?api_key=3d8a2c67653e2f8fd7dd09959e835f02&amp;language=es&amp;query=$doregex[nombre2]</page></regex>
+<title>[COLOR skyblue]$doregex[nombre]  [/COLOR][COLOR blue][/COLOR][COLOR blue][/COLOR]</title>
+<regex><name>nombre</name><expres>Justice League</expres><page></page></regex>
+<regex><name>nombre2</name><expres>$pyFunction:'$doregex[nombre]'.replace(" ", "+")</expres>
+<page></page></regex>
+</item>
+
+<item>
+<title>[COLOR blue]Coco[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>https://m.movieposter.com/posters/archive/main/240/MPW-120222</thumbnail>
+<urlsolve>http://diskokosmiko.mx/filojass/peliculas-2017-en-espanol-latino-75722/2017-coco,1664880,list,1,1.mp4</urlsolve>
+</item>
+
+<item>
+<title>[COLOR blue]Thor Ragnarok[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>http://www.superheromovies.net/img/p/BhSRAPc9pAHnuIRRP7O4IwMpUr.jpg</thumbnail>
+<urlsolve>http://diskokosmiko.mx/filojass/peliculas-2017-en-espanol-latino-75722/2017-thor,1632490,list,1,1.mp4</urlsolve>
+</item>
+
+<item>
+<title>[COLOR blue]The lost Boys[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>https://20ui41tp7v127j03rcnp97oh-wpengine.netdna-ssl.com/wp-content/uploads/2015/12/krause_lostboys.jpg</thumbnail>
+<urlsolve>http://diskokosmiko.mx/muhazimim/rmvb-cine-web-16062/the-lost-boys-1987-joel-schumacher,43288.rmvb</urlsolve>
+</item>
+
+<item>
+<title>[COLOR blue]Million Dollar Baby[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>http://is2.mzstatic.com/image/thumb/Video/v4/58/74/9e/58749e95-1fef-40c0-32b9-3e6b7a1d4788/source/1200x630bb.jpg</thumbnail>
+<urlsolve>http://diskokosmiko.mx/chinchetas/peliculas-espanol-32573/million-dolar-baby,563491.avi</urlsolve>
+</item>
+
+<item>
+<title>[COLOR blue]Locas vacaciones sobre ruedas[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>http://photos1.blogger.com/blogger/1813/512/1600/rv_bigreleaseposter.jpg</thumbnail>
+<urlsolve>http://diskokosmiko.mx/marcos20/peticiones-16957/locas-vacaciones-sobre-ruedas,206311,gallery,5,3.avi</urlsolve>
+</item>
+
+<item>
+<title>[COLOR blue]Whiplash[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>http://img.moviepostershop.com/whiplash-movie-poster-2014-1010770813.jpg</thumbnail>
+<urlsolve>http://diskokosmiko.mx/danonaba89/fileuploader-46197/whiplash-1080p,719847,list,2,1.mp4</urlsolve>
+</item>
+
+<item>
+<title>[COLOR blue]Me llaman Radio[/COLOR]</title>
+<fanart></fanart>
+<thumbnail>http://104.236.196.111/imdb//media/photo_images/hETRrxruyWDOQyAVfZ5UsVYPKIN.jpg</thumbnail>
+<urlsolve>http://diskokosmiko.mx/PukinG/peliculas-antiguas-5-42683/me-llaman-radio-2003,530984.mkv</urlsolve>
+</item>

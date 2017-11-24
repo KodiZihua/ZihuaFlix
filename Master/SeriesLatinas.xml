@@ -1,5 +1,119 @@
 
 <item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]La Casa de papel[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BZmU3MGEyOWUtYzNhNS00OTQwLWE3ODgtZWUzZGUzMGI1ZWVmXkEyXkFqcGdeQXVyNTY2MzkxMjc@._V1_.jpg</thumbnail>
+        <fanart>http://fotografias.antena3.com/clipping/cmsimages02/2017/03/31/79F9E1FC-130B-4470-AECA-07BF8A44C4E1/57.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/empaket/la-casa-de-papel-94845</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/empaket/la-casa-de-papel-94845<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BZmU3MGEyOWUtYzNhNS00OTQwLWE3ODgtZWUzZGUzMGI1ZWVmXkEyXkFqcGdeQXVyNTY2MzkxMjc@._V1_.jpg</thumbnail>
+<fanart>http://fotografias.antena3.com/clipping/cmsimages02/2017/03/31/79F9E1FC-130B-4470-AECA-07BF8A44C4E1/57.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Mar de plastico[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://playmax.xyz/img/c/400/73/1448459216/36398.jpg</thumbnail>
+        <fanart>http://segnorasque.com/wp-content/uploads/2016/12/asi-es-mar-de-plastico-la-serie-que-arranca-hoy-en-antena-3.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SeriesHD/mar-de-plastico-t2-39130</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SeriesHD/mar-de-plastico-t2-39130<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://playmax.xyz/img/c/400/73/1448459216/36398.jpg</thumbnail>
+<fanart>http://segnorasque.com/wp-content/uploads/2016/12/asi-es-mar-de-plastico-la-serie-que-arranca-hoy-en-antena-3.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]El Clon[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://4.bp.blogspot.com/-jrZuNGcMDFM/Ti1OobleBDI/AAAAAAAABpU/vuAquv-ym-Y/s1600/El+Clon+%25282%2529.jpg</thumbnail>
+        <fanart>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_ElClon_1920x1080_2.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/cbytek/ecl-93085/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/cbytek/ecl-93085/list,1,5<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://4.bp.blogspot.com/-jrZuNGcMDFM/Ti1OobleBDI/AAAAAAAABpU/vuAquv-ym-Y/s1600/El+Clon+%25282%2529.jpg</thumbnail>
+<fanart>http://www.telemundo.com/sites/nbcutelemundo/files/sites/nbcutelemundo/files/images/tv_show/10_ElClon_1920x1080_2.jpg</fanart>
+</item>
+
+<item>
  <item>
       <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Sin senos si hay paraiso[/B][/COLOR]</title>
   <thumbnail>https://1.bp.blogspot.com/-7-94qsaeJr4/VzFfHP7laHI/AAAAAAAA--k/GUlHdsWrd84FKk8QmILeGpS6zMApegjqgCLcB/s1600/poster-sin-senos-si-hay-paraiso.jpg</thumbnail>

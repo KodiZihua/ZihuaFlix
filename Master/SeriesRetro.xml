@@ -1,5 +1,81 @@
 
 <item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Frasier[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://images-na.ssl-images-amazon.com/images/I/41qTgE-GViL.jpg</thumbnail>
+        <fanart>http://www.themoviethemesong.com/wp-content/uploads/2014/06/Frasier-Theme-Song-2.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/nueyl/frasier-25277/list,1,4</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/nueyl/frasier-25277/list,1,4<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/I/41qTgE-GViL.jpg</thumbnail>
+<fanart>http://www.themoviethemesong.com/wp-content/uploads/2014/06/Frasier-Theme-Song-2.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Quantum Leap[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://scifanworld.com/assets/photos/original/c1/78/18/309-quantum-leap-41-1368974237.jpg</thumbnail>
+        <fanart>http://philgiangrandeproductions.com/wp-content/uploads/2017/08/Quantum-Leap.jpeg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/MSRJ/a-traves-del-tiempo-1989-1993-69585/list,1,5</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/MSRJ/a-traves-del-tiempo-1989-1993-69585/list,1,5<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://scifanworld.com/assets/photos/original/c1/78/18/309-quantum-leap-41-1368974237.jpg</thumbnail>
+<fanart>http://philgiangrandeproductions.com/wp-content/uploads/2017/08/Quantum-Leap.jpeg</fanart>
+</item>
+
+<item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Batman 1968[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>

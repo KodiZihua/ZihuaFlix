@@ -1,3 +1,13 @@
+
+<item>
+ <item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]La Maldicion de la isla Oak[/B][/COLOR]</title>
+  <thumbnail>https://cdn-static.sidereel.com/tv_shows/56290/giant_2x/curse_of_oak_island_s3_vertical1.jpg</thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/Oak.xml</externallink>
+</item>
+
 <item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Documentales variados (+2000)[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>

@@ -1,5 +1,13 @@
 
 <item>
+      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Peticiones[/B][/COLOR]</title>
+  <thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Peliculas/Peticiones.xml</externallink>
+</item>
+
+<item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]DC Extended Universe[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -109,7 +117,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://image.ibb.co/hqpe36/pelislatino.pngg</thumbnail>
+<thumbnail>https://image.ibb.co/hqpe36/pelislatino.png</thumbnail>
 <fanart>http://www.wallpaperbetter.com/wallpaper/846/30/504/beach-sand-2017-720P-wallpaper.jpg</fanart>
 </item>
 

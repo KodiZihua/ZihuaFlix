@@ -5,7 +5,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://4.bp.blogspot.com/_LrP1gbS2R4U/SbUu6l_qTVI/AAAAAAAAAu4/r0XPaWupJXQ/s400/superfriends.jpg</thumbnail>
         <fanart>http://gianmarcojoseth.com/images/Capturas/superamigos3.jpg</fanart>
@@ -43,7 +43,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://www.tuposter.com/pub/media/catalog/product/cache/image/700x560/91bbed04eb86c2a8aaef7fbfb2041b2a/f/i/file_79_54.jpg</thumbnail>
         <fanart>https://www.gratistodo.com/wp-content/uploads/2016/08/Los-Picapiedra.jpg</fanart>
@@ -81,7 +81,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_792serie.jpg</thumbnail>
         <fanart>https://i.pinimg.com/originals/3c/ac/59/3cac59f17dce50c561efb067499e90a7.jpg</fanart>
@@ -119,7 +119,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://vignette3.wikia.nocookie.net/doblaje/images/c/cd/Voltron1.jpg</thumbnail>
         <fanart>https://wallpaperscraft.com/image/voltron_legendary_defender_netflix_109635_2048x1152.jpg</fanart>
@@ -157,7 +157,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://images-na.ssl-images-amazon.com/images/I/71fpZZPrLuL._SY445_.jpg</thumbnail>
         <fanart>http://orig03.deviantart.net/b407/f/2009/050/e/1/la_familia_robinson_3_by_daikikun75.png</fanart>
@@ -195,7 +195,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://pics.filmaffinity.com/filmation_s_ghostbusters_tv_series-206609247-large.jpg</thumbnail>
         <fanart>http://www.misucell.com/data/out/7/IMG_190833.png</fanart>
@@ -233,7 +233,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://www.jposter.net/images/products/b5-remi.jpg</thumbnail>
         <fanart>https://imgpv.com/images/2014/07/21/Remi.png</fanart>
@@ -271,7 +271,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>https://image.tmdb.org/t/p/w300_and_h450_bestv2/spETZnb657XVrHZZ9aXSS6sT6dw.jpg</thumbnail>
         <fanart>https://i.ytimg.com/vi/tuv9Zq2Toe0/maxresdefault.jpg</fanart>
@@ -309,7 +309,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://www.posterparty.com/images/cartoon-monster-high-song-poster-TR2267.jpg</thumbnail>
         <fanart>http://wallpapercave.com/wp/8a45E6c.jpg</fanart>
@@ -2520,7 +2520,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig01.deviantart.net/e5c1/f/2015/309/d/f/courage_the_cowardly_dog_folder_icon_v2_by_akathelast1-d9fnguc.png</thumbnail>
         <fanart>http://1.bp.blogspot.com/-YTGiNm-Ys5E/T3w0YqVYFmI/AAAAAAAAE0E/QhuswPZELS4/s1600/coragem+7.jpg</fanart>
@@ -2558,7 +2558,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig06.deviantart.net/8008/f/2015/066/c/f/heidi_floder_icon_by_mikromike-d8kuhj5.png</thumbnail>
         <fanart>http://www.myfreewallpapers.net/cartoons/wallpapers/heidi.jpg</fanart>
@@ -2596,7 +2596,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig02.deviantart.net/c169/f/2016/169/4/e/voltron__legendary_defender_folder_icon_by_damionmauville-da6pekk.png</thumbnail>
         <fanart>http://wallpapercave.com/wp/7WMwbnt.jpg</fanart>
@@ -2634,7 +2634,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig15.deviantart.net/f02e/f/2015/088/7/9/top_cat_folder_icon_by_mikromike-d8kplug.png</thumbnail>
         <fanart>http://keluegobarraalguien.es/wp-content/uploads/2016/06/Don_Gato.jpg</fanart>
@@ -2672,7 +2672,7 @@
 <regex>
   <name>makelist</name>
   <listrepeat><![CDATA[
-        <title>[COLOR red]  [makelist.param3][/COLOR]</title>
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
     <thumbnail>http://orig04.deviantart.net/d3f3/f/2015/067/5/e/tom_sawyer_folder_icon_by_mikromike-d8ky32d.png</thumbnail>
         <fanart>http://cnemacentre.com/wp-content/uploads/images/show-images/the-adventures-of-tom-sawyer-1.jpg</fanart>

@@ -7,7 +7,7 @@
   <listrepeat><![CDATA[
         <title>[COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://vignette.wikia.nocookie.net/doblaje/images/5/59/RETO_Poster.jpg</thumbnail>
+    <thumbnail>http://4.bp.blogspot.com/_LrP1gbS2R4U/SbUu6l_qTVI/AAAAAAAAAu4/r0XPaWupJXQ/s400/superfriends.jpg</thumbnail>
         <fanart>http://gianmarcojoseth.com/images/Capturas/superamigos3.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
@@ -33,7 +33,7 @@
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://vignette.wikia.nocookie.net/doblaje/images/5/59/RETO_Poster.jpg</thumbnail>
+<thumbnail>http://4.bp.blogspot.com/_LrP1gbS2R4U/SbUu6l_qTVI/AAAAAAAAAu4/r0XPaWupJXQ/s400/superfriends.jpg</thumbnail>
 <fanart>http://gianmarcojoseth.com/images/Capturas/superamigos3.jpg</fanart>
 </item>
 
@@ -83,11 +83,11 @@
   <listrepeat><![CDATA[
         <title>[COLOR red]  [makelist.param3][/COLOR]</title>
         <link>$doregex[getUrl]</link>
-    <thumbnail>https://pics.filmaffinity.com/uchu_densetsu_ulysses_31_ulysse_31_tv_series-789671168-large.jpg</thumbnail>
+    <thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_792serie.jpg</thumbnail>
         <fanart>https://i.pinimg.com/originals/3c/ac/59/3cac59f17dce50c561efb067499e90a7.jpg</fanart>
         ]]></listrepeat>
 <expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
-<page></page>
+<page>http://diskokosmiko.mx/Neo_st220/ulises-31-serie-completa-33951/list,1,2</page>
 <cookieJar></cookieJar>
 </regex>
 <regex>
@@ -105,11 +105,11 @@
 <name>tok</name>
 <expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
 <page>http://diskokosmiko.mx/[makelist.param2]</page>
-<referer><referer>
+<referer>http://diskokosmiko.mx/Neo_st220/ulises-31-serie-completa-33951/list,1,2<referer>
 <connection>keep-alive</connection>
 <cookieJar></cookieJar>
 </regex>
-<thumbnail>https://pics.filmaffinity.com/uchu_densetsu_ulysses_31_ulysse_31_tv_series-789671168-large.jpg</thumbnail>
+<thumbnail>http://www.cineol.net/galeria/carteles/bigtmp_792serie.jpg</thumbnail>
 <fanart>https://i.pinimg.com/originals/3c/ac/59/3cac59f17dce50c561efb067499e90a7.jpg</fanart>
 </item>
 

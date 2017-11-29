@@ -1,0 +1,76 @@
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 1[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig06.deviantart.net/cb4e/f/2016/306/0/0/sense8_tv_series_folder_icon_for_windows_by_kmphotoshop-dan39lj.png</thumbnail>
+        <fanart>http://wallpapersdsc.net/wp-content/uploads/2016/09/Sense8-Wallpapers.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lau158/sense8-temporada-1-74491</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/lau158/sense8-temporada-1-74491<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig06.deviantart.net/cb4e/f/2016/306/0/0/sense8_tv_series_folder_icon_for_windows_by_kmphotoshop-dan39lj.png</thumbnail>
+<fanart>http://wallpapersdsc.net/wp-content/uploads/2016/09/Sense8-Wallpapers.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR gray][COLOR red]• [/COLOR] [B]Temporada 2[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://orig06.deviantart.net/cb4e/f/2016/306/0/0/sense8_tv_series_folder_icon_for_windows_by_kmphotoshop-dan39lj.png</thumbnail>
+        <fanart>http://wallpapersdsc.net/wp-content/uploads/2016/09/Sense8-Wallpapers.jpg</fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/lau158/sense8-temporada-2-75171</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/lau158/sense8-temporada-2-75171<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://orig06.deviantart.net/cb4e/f/2016/306/0/0/sense8_tv_series_folder_icon_for_windows_by_kmphotoshop-dan39lj.png</thumbnail>
+<fanart>http://wallpapersdsc.net/wp-content/uploads/2016/09/Sense8-Wallpapers.jpg</fanart>
+</item>

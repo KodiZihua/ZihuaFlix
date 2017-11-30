@@ -1,5 +1,202 @@
 
 <item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Alli Abajo[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://pics.filmaffinity.com/alli_abajo_tv_series-599411874-large.jpg</thumbnail>
+        <fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/SHIRKAM/alli-abajo-2015-completa-47244/list,1,2</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/SHIRKAM/alli-abajo-2015-completa-47244/list,1,2<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/alli_abajo_tv_series-599411874-large.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Blue Demon[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://pics.filmaffinity.com/blue_demon_tv_series-666367746-large.jpg</thumbnail>
+        <fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/esaespe/blue-demon-completa-81539/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/esaespe/blue-demon-completa-81539/list,1,3<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://pics.filmaffinity.com/blue_demon_tv_series-666367746-large.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]El Cesar[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://i2.esmas.com/2017/01/19/909987/pster-el-csar-610x800.jpg</thumbnail>
+        <fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/carryz/el-cesar-92342</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/carryz/el-cesar-92342<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://i2.esmas.com/2017/01/19/909987/pster-el-csar-610x800.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Casados con hijos[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BYzQ1OWRmMDUtMWI4Zi00YWQwLWE0NjctNWFkMGY2N2FjZjI4XkEyXkFqcGdeQXVyMzAzODY0NzE@._V1_.jpg</thumbnail>
+        <fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/titotv/casados-con-hijos-serie-completa-2798/list,1,9</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/titotv/casados-con-hijos-serie-completa-2798/list,1,9<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://images-na.ssl-images-amazon.com/images/M/MV5BYzQ1OWRmMDUtMWI4Zi00YWQwLWE0NjctNWFkMGY2N2FjZjI4XkEyXkFqcGdeQXVyMzAzODY0NzE@._V1_.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Las Muñecas de la mafia[/B][/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+  <name>makelist</name>
+  <listrepeat><![CDATA[
+        <title>[COLOR royalblue][COLOR white]Zihua[/COLOR][B]Flix[/B][/COLOR] [COLOR red][makelist.param3][/COLOR][COLOR red]  [makelist.param3][/COLOR]</title>
+        <link>$doregex[getUrl]</link>
+    <thumbnail>http://cdn0.nflximg.net/images/3506/21033506.jpg</thumbnail>
+        <fanart></fanart>
+        ]]></listrepeat>
+<expres><![CDATA[href="\/.*,(.*?),list.*\n.*\n.*\n.*href="\/([^"]*)".*?>(.*?)<]]></expres>
+<page>http://diskokosmiko.mx/esaespe/las-munecas-de-la-mafia-completa-83712/list,1,3</page>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres>DownloadUrl":"([^"]+)<expres>
+<page>http://diskokosmiko.mx/action/DownloadFile?location=fi&amp;f=[makelist.param1]</page>
+<rawpost>fileId=[makelist.param1]&amp;__RequestVerificationToken=$doregex[tok]</rawpost>
+<referer>http://diskokosmiko.mx/[makelist.param2]</referer>
+<connection>keep-alive</connection>
+<accept>*/*</accept>
+<X-Req>XMLHttpRequest</X-Req>
+<cookieJar></cookieJar>
+</regex>
+<regex>
+<name>tok</name>
+<expres>DownloadFile.*RequestVerificationToken.*?value="([^"]+)<expres>
+<page>http://diskokosmiko.mx/[makelist.param2]</page>
+<referer>http://diskokosmiko.mx/esaespe/las-munecas-de-la-mafia-completa-83712/list,1,3<referer>
+<connection>keep-alive</connection>
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>http://cdn0.nflximg.net/images/3506/21033506.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Señora Acero[/B][/COLOR]</title>
+<link>http://ignora.me</link>
+<externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/SraAcero.m3u</externallink>
+<thumbnail>https://upload.wikimedia.org/wikipedia/en/archive/1/1e/20171117004923%21Se%C3%B1ora_season_four_poster.jpg</thumbnail><fanart></fanart>
+</item>
+
+<item>
 <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]La Casa de papel[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -243,14 +440,6 @@
 </regex>
 <thumbnail>http://2.bp.blogspot.com/-7viF9HPhA-U/VjD1QHEwR6I/AAAAAAAAAvw/yiNRtCevKNI/s320/el-dandy.jpg</thumbnail>
 <fanart>https://1.bp.blogspot.com/-4oRVgqaMP6g/VMIDeMKIP0I/AAAAAAAAJUI/f4Y16rrxzf8/w1200-h630-p-k-no-nu/poster%2Bserie%2Bel%2Bdandy.jpg</fanart>
-</item>
-
- <item>
-      <title>[COLOR royalblue][COLOR white]• [/COLOR] [B]Blue Demon[/B][/COLOR]</title>
-  <thumbnail>https://pics.filmaffinity.com/blue_demon_tv_series-666367746-large.jpg</thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-   <externallink>https://raw.githubusercontent.com/KodiZihua/ZihuaFlix/master/Series/BD.xml</externallink>
 </item>
 
 <item>
